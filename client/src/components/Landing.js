@@ -18,21 +18,21 @@ export default class Landing extends Component {
                         <div className="col-sm-3"> 
                             <h2>Category1</h2>
                             <p>View details</p>
-                            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-3"> 
                             <h2>Category2</h2>
                             <p>View details</p>
-                            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-3"> 
                             <h2>Category3</h2>
                             <p>View details</p>
-                            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -46,14 +46,14 @@ export default class Landing extends Component {
                         <div className="col-sm-3"> 
                             <h2>Category5</h2>
                             <p>View details</p>
-                            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-3"> 
                             <h2>Category6</h2>
                             <p>View details</p>
-                            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -67,14 +67,14 @@ export default class Landing extends Component {
                         <div className="col-sm-3"> 
                             <h2>Category8</h2>
                             <p>View details</p>
-                            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-3"> 
                             <h2>Category9</h2>
                             <p>View details</p>
-                            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -88,14 +88,14 @@ export default class Landing extends Component {
                         <div className="col-sm-3"> 
                             <h2>Category11</h2>
                             <p>View details</p>
-                            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-3"> 
                             <h2>Category12</h2>
                             <p>View details</p>
-                            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                 </div>
