@@ -9,6 +9,24 @@ export default class Landing extends Component {
                     <div className="jumbotron mt-5">
                         <h1 className="text-center">iCuida</h1>
                     </div>
+                    <div className="row">
+                        <div class="col-sm-3">.col-sm-3</div>
+                        <div class="col-sm-3">.col-sm-3</div>
+                        <div class="col-sm-3">.col-sm-3</div>
+                        <div class="col-sm-3">.col-sm-3</div>
+                    </div>
+                    <div className="row">
+                        <div class="col-sm-3">.col-sm-3</div>
+                        <div class="col-sm-3">.col-sm-3</div>
+                        <div class="col-sm-3">.col-sm-3</div>
+                        <div class="col-sm-3">.col-sm-3</div>
+                    </div>
+                    <div className="row">
+                        <div class="col-sm-3">.col-sm-3</div>
+                        <div class="col-sm-3">.col-sm-3</div>
+                        <div class="col-sm-3">.col-sm-3</div>
+                        <div class="col-sm-3">.col-sm-3</div>
+                    </div>
                 </div>
             </React.Fragment>
         )
