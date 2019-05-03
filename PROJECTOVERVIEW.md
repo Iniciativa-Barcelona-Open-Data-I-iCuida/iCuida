@@ -81,7 +81,10 @@ __##Feature 3: HomePage with Categories__
 - [] If App is loaded and customer is signed up/logged in, the homepage will show.
 - [] On homepage all categories for questions and answers are stated with small icon, name in button or box.
 - [] On click button, user goes to specific category.
-  
+
+__ERRORES__
+[./src/components/Landing.js](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md)
+
  __##Feature 4: Static: Questions__
 - [] 
 - [] 

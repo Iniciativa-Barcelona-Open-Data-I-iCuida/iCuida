@@ -6,21 +6,21 @@ export default class Landing extends Component {
         return(
             <React.Fragment>
             <main role="main">
-                <div className="container-fluid">
+            <div className="container-fluid">
                     <div className="jumbotron mt-5">
                         <h1 className="text-center">iCuida</h1>
                         <p className="text-center">short sentence about APP</p>
                     </div>
                 </div>
             </main>
-                <div className="container"> 
+            <div className="container"> 
                     <div className="row">  
                         <div className="col-sm-3"> 
                             <h2>Category1</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
-                        </div>
                     </div>
+            </div>
                     <div className="row">  
                         <div className="col-sm-3"> 
                             <h2>Category2</h2>
