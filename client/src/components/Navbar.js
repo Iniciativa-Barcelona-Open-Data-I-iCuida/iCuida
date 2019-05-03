@@ -1,5 +1,6 @@
 import React, {Component } from 'react';
 import { Link, withRouter} from 'react-router-dom';
+import '../assets/css/Navbar.css';
 
 class Navbar extends Component {
     logOut(e) {
@@ -39,7 +40,7 @@ class Navbar extends Component {
             </ul>
         )
         return(
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-newcolor">
                 <button className="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
