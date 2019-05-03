@@ -10,22 +10,22 @@ export default class Landing extends Component {
                         <h1 className="text-center">iCuida</h1>
                     </div>
                     <div className="row">
-                        <div class="col-sm-3">.col-sm-3</div>
-                        <div class="col-sm-3">.col-sm-3</div>
-                        <div class="col-sm-3">.col-sm-3</div>
-                        <div class="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
                     </div>
                     <div className="row">
-                        <div class="col-sm-3">.col-sm-3</div>
-                        <div class="col-sm-3">.col-sm-3</div>
-                        <div class="col-sm-3">.col-sm-3</div>
-                        <div class="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
                     </div>
                     <div className="row">
-                        <div class="col-sm-3">.col-sm-3</div>
-                        <div class="col-sm-3">.col-sm-3</div>
-                        <div class="col-sm-3">.col-sm-3</div>
-                        <div class="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
+                        <div className="col-sm-3">.col-sm-3</div>
                     </div>
                 </div>
             </React.Fragment>
