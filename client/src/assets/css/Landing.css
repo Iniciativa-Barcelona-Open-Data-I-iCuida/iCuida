@@ -1,3 +1,7 @@
+::after, ::before {
+    box-sizing: border-box;
+}
+
 .breadcrumb{
     margin: 20px;        
 }
