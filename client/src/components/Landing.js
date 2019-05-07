@@ -124,6 +124,9 @@ export default class Landing extends Component {
                     <hr></hr>
                 </div>
             </main>
+            <footer class="container">
+                <p>©iCuida 2019</p>
+            </footer>
         </React.Fragment>   
         )
     }
