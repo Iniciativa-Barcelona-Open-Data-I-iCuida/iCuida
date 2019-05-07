@@ -53,9 +53,13 @@ div .jumbotron-mt-5 {
 .div-col-lg-4 {
     position: relative;
     width: 100%;
+    /*padding: 50px;*/
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 0 16px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
     background-color:#17a2b8;
 }
 
