@@ -17,15 +17,24 @@ div .jumbotron-mt-5 {
 .div container-fluid{
     padding: 0 0px;
 }
+
 .container {
     background-color: white;
 }
 
-.col-md-4{
+.div-col-md-4{
     position: relative;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    margin: 0 0 16px;
+}
+
+.h2{
+    margin: 0 0 8px;
+}
+
+.p{
     margin: 0 0 16px;
 }
 
