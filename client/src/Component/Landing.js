@@ -34,14 +34,14 @@ export default class Landing extends Component {
             </div>
             <div className="container-fluid"> 
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Derechos Laborales</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
                             <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Tramites Legales</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
@@ -49,7 +49,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Seguridad Social</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
@@ -57,7 +57,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Extranjería</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
@@ -65,7 +65,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Centros de Suporte</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
@@ -73,7 +73,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Cuidado de Dependientes</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
@@ -81,7 +81,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Cuidado de Mayores</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
@@ -89,7 +89,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Canguros</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
@@ -97,7 +97,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Consejos de Limpieza</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
@@ -105,7 +105,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Ayudas Prácticas</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
@@ -113,7 +113,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Recursos de Barcelona</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
@@ -121,7 +121,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-xs-5 col-sm-6 col-lg-4"> 
+                        <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Otros</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>

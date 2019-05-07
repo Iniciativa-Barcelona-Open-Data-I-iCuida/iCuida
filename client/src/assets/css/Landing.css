@@ -60,11 +60,18 @@ div .jumbotron-mt-5 {
 
 .h2{
     margin: 0 0 8px;
+    padding: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    background: #dbdfe5;
 }
 
 .p{
     margin: 0 0 16px;
 }
+
+
 
 /* Add media queries */
 /* Small devices (landscape phones, 576px and up)*/
