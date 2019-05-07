@@ -17,112 +17,100 @@ export default class Landing extends Component {
                         <div className="col-sm-4"> 
                             <h2>Derechos Laborales</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
                             <p><a className="btn btn-secondary" href="#" role="button">Derechos Laborales»</a></p>
                     </div>
-            </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category2</h2>
+                            <h2>Tramites Legales</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Tramites Legales »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category3</h2>
+                            <h2>Seguridad Social</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Seguridad Social »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category4</h2>
+                            <h2>Extranjería</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Extranjería »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category5</h2>
+                            <h2>Centros de Suporte</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Centros de Suporte »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category6</h2>
+                            <h2>Cuidado de Dependientes</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Cuidado de Dependientes »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category7</h2>
+                            <h2>Cuidado de Mayores</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Cuidado de Mayores »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category8</h2>
+                            <h2>Canguros</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Canguros »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category9</h2>
+                            <h2>Consejos de Limpieza</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Consejos de Limpieza »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category10</h2>
+                            <h2>Ayudas Prácticas</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Ayudas Prácticas »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category11</h2>
+                            <h2>Recursos de Barcelona</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Recursos de Barcelona »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-sm-4"> 
-                            <h2>Category12</h2>
+                            <h2>Otros</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Otros »</a></p>
                         </div>
                     </div>
                     <hr></hr>
                 </div>
+            </div>
             </main>
             <footer className="container">
                 <p>©iCuida 2019</p>
