@@ -28,14 +28,14 @@ export default class Landing extends Component {
                             <h2>Derechos Laborales</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Derechos Laborales»</a></p>
+                            <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p>
                     </div>
                     <div className="row">  
                         <div className="col-xs-5 col-sm-6 col-lg-4"> 
                             <h2>Tramites Legales</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Tramites Legales »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button2" role="button">Tramites Legales »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -43,7 +43,7 @@ export default class Landing extends Component {
                             <h2>Seguridad Social</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Seguridad Social »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button3" role="button">Seguridad Social »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -51,7 +51,7 @@ export default class Landing extends Component {
                             <h2>Extranjería</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Extranjería »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button4" role="button">Extranjería »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -59,7 +59,7 @@ export default class Landing extends Component {
                             <h2>Centros de Suporte</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Centros de Suporte »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button5" role="button">Centros de Suporte »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -67,7 +67,7 @@ export default class Landing extends Component {
                             <h2>Cuidado de Dependientes</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Cuidado de Dependientes »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button6" role="button">Cuidado de Dependientes »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -75,7 +75,7 @@ export default class Landing extends Component {
                             <h2>Cuidado de Mayores</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Cuidado de Mayores »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button7" role="button">Cuidado de Mayores »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -83,7 +83,7 @@ export default class Landing extends Component {
                             <h2>Canguros</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Canguros »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button8" role="button">Canguros »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -91,7 +91,7 @@ export default class Landing extends Component {
                             <h2>Consejos de Limpieza</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Consejos de Limpieza »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button9" role="button">Consejos de Limpieza »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -99,7 +99,7 @@ export default class Landing extends Component {
                             <h2>Ayudas Prácticas</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Ayudas Prácticas »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button10" role="button">Ayudas Prácticas »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -107,7 +107,7 @@ export default class Landing extends Component {
                             <h2>Recursos de Barcelona</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Recursos de Barcelona »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button11" role="button">Recursos de Barcelona »</a></p>
                         </div>
                     </div>
                     <div className="row">  
@@ -115,7 +115,7 @@ export default class Landing extends Component {
                             <h2>Otros</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">Otros »</a></p>
+                            <p><a className="btn btn-secondary" href="#Button12" role="button">Otros »</a></p>
                         </div>
                     </div>
                     <hr></hr>
