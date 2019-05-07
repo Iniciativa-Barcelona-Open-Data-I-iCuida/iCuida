@@ -73,10 +73,9 @@ div .jumbotron-mt-5 {
 }
 
 .p{
-    margin: 0 0 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
-
-
 
 /* Add media queries */
 /* Small devices (landscape phones, 576px and up)*/
