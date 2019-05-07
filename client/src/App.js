@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Navbar from './components/Navbar'
-import Landing from './components/Landing'
-import Login from './components/Login'
-import Register from './components/Register'
-import Profile from './components/Profile'
-import Questions from './components/Questions'
-import Question from './components/Question'
+import Navbar from './Component/Navbar'
+import Landing from './Component/Landing'
+import Login from './Component/Login'
+import Register from './Component/Register'
+import Profile from './Component/Profile'
+import Questions from './Component/Questions'
+import Question from './Component/Question'
 
 
 function App() {
