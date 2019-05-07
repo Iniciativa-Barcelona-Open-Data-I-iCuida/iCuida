@@ -12,7 +12,6 @@ export default class Landing extends Component {
                         <p className="text-center">short sentence about APP</p>
                     </div>
                 </div>
-            </main>
             <div className="container"> 
                     <div className="row">  
                         <div className="col-md-4"> 
@@ -85,20 +84,21 @@ export default class Landing extends Component {
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category11</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category12</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                 </div>
+            </main>
         </React.Fragment>   
         )
     }
