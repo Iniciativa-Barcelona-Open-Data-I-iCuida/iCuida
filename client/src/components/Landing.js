@@ -15,70 +15,70 @@ export default class Landing extends Component {
             </main>
             <div className="container"> 
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category1</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                     </div>
             </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category2</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category3</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category4</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category5</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category6</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category7</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category8</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category9</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
-                        <div className="col-sm-3"> 
+                        <div className="col-md-4"> 
                             <h2>Category10</h2>
                             <p>View details</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>

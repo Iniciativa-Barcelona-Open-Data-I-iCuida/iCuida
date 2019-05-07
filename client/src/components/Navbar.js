@@ -40,7 +40,7 @@ class Navbar extends Component {
             </ul>
         )
         return(
-            <nav className="navbar navbar-expand-lg navbar-dark bg-newcolor">
+            <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-newcolor">
                 <button className="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
