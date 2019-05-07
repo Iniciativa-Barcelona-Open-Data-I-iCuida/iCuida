@@ -14,12 +14,12 @@ export default class Landing extends Component {
             </div>
             <div className="container-fluid"> 
                     <div className="row">  
-                        <div className="col-md-4"> 
-                            <h2>Category1</h2>
+                        <div className="col-sm-4"> 
+                            <h2>Derechos Laborales</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac.  
+                               Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. 
                             </p>
-                            <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
+                            <p><a className="btn btn-secondary" href="#" role="button">Derechos Laborales»</a></p>
                     </div>
             </div>
                     <div className="row">  
