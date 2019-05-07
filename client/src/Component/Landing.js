@@ -8,10 +8,10 @@ export default class Landing extends Component {
             <div className="bs-example">
             <nav>
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item1"><a href="#Breadcrumb1">Breadcrumb1</a></li>
-                    <li className="breadcrumb-item2"><a href="#Breadcrumb2">Breadcrumb2</a></li>
-                    <li className="breadcrumb-item3"><a href="#Breadcrumb3">Breadcrumb3</a></li>
-                    <li className="breadcrumb-item4"><a href="#Breadcrumb4">Breadcrumb4</a></li>
+                    <li className="breadcrumb-item1"><a href="#Breadcrumb1">1</a></li>
+                    <li className="breadcrumb-item2"><a href="#Breadcrumb2">2</a></li>
+                    <li className="breadcrumb-item3"><a href="#Breadcrumb3">3</a></li>
+                    <li className="breadcrumb-item4"><a href="#Breadcrumb4">4</a></li>
                 </ol>
             </nav>
             </div>
