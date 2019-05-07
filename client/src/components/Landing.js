@@ -16,21 +16,21 @@ export default class Landing extends Component {
                     <div className="row">  
                         <div className="col-md-4"> 
                             <h2>Category1</h2>
-                            <p>View details</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. Dolor sit amet consectetur adipiscing elit ut. Arcu non odio euismod lacinia. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Enim sed faucibus turpis in. Facilisis sed odio morbi quis commodo odio aenean sed. Fames ac turpis egestas integer. Enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nullam non nisi est sit amet facilisis magna etiam tempor. Pulvinar pellentesque habitant morbi tristique senectus et netus et. Praesent tristique magna sit amet purus gravida quis blandit.</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                     </div>
             </div>
                     <div className="row">  
                         <div className="col-md-4"> 
                             <h2>Category2</h2>
-                            <p>View details</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. Dolor sit amet consectetur adipiscing elit ut. Arcu non odio euismod lacinia. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Enim sed faucibus turpis in. Facilisis sed odio morbi quis commodo odio aenean sed. Fames ac turpis egestas integer. Enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nullam non nisi est sit amet facilisis magna etiam tempor. Pulvinar pellentesque habitant morbi tristique senectus et netus et. Praesent tristique magna sit amet purus gravida quis blandit.</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
                     <div className="row">  
                         <div className="col-md-4"> 
                             <h2>Category3</h2>
-                            <p>View details</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl purus in mollis nunc sed id semper risus in. Amet purus gravida quis blandit turpis cursus in hac. Dolor sit amet consectetur adipiscing elit ut. Arcu non odio euismod lacinia. Nulla pellentesque dignissim enim sit amet venenatis urna cursus eget. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Enim sed faucibus turpis in. Facilisis sed odio morbi quis commodo odio aenean sed. Fames ac turpis egestas integer. Enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nullam non nisi est sit amet facilisis magna etiam tempor. Pulvinar pellentesque habitant morbi tristique senectus et netus et. Praesent tristique magna sit amet purus gravida quis blandit.</p>
                             <p><a className="btn btn-secondary" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
