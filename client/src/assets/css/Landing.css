@@ -1,3 +1,10 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
 div .jumbotron-mt-5 {
     font-size: 1rem;
     font-weight: 400;
