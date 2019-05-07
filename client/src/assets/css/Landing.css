@@ -15,11 +15,21 @@ div .jumbotron-mt-5 {
 }
 
 .div container-fluid{
-    padding: 0 0px;
+    margin: 0px 32,6667px;
+    padding: 0 15px;
 }
 
 .container {
     background-color: white;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-row{
+    margin: 0 15px;
 }
 
 .div-col-md-4{
@@ -51,8 +61,11 @@ div .jumbotron-mt-5 {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-
+    .container {
+        max-width: 960px;
+    }
 }
+
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
 
