@@ -15,6 +15,17 @@ export default class Landing extends Component {
                 </ol>
             </nav>
             </div>
+            <div className="search-form">
+            <nav>
+                <form className="form-inline">
+                <div className="input-group"> </div>
+                <input type="text" className="form-control" placeholder="Search"></input>
+                <div className="input-group-append"></div>
+                <button type="button" className="btn btn-secondary"><i className="fa fa-search"></i></button>
+                </form>
+            </nav>
+            </div>
+      
             <main role="main">
             <div className="container-fluid">
                     <div className="jumbotron mt-5">
