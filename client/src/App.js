@@ -6,6 +6,9 @@ import Landing from './components/Landing'
 import Login from './components/Login'
 import Register from './components/Register'
 import Profile from './components/Profile'
+import Questions from './components/Questions'
+import Question from './components/Question'
+
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
             <Route exact path="/register" component={Register}/>
             <Route exact path="/login" component={Login}/>
             <Route exact path="/profile" component={Profile}/>
+            <Route exact path="/questions" component={Questions}/>
+            <Route exact path="/questions/:id" component={Question}/>
         </div>
       </div>
     </Router>
