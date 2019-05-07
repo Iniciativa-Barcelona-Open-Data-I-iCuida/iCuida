@@ -32,7 +32,7 @@ export default class Landing extends Component {
                         </div>
                     </div>
             </div>
-            <div className="container-fluid"> 
+            <div className="container-fluid mt-3"> 
                     <div className="row">  
                         <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Derechos Laborales</h2>
