@@ -85,6 +85,24 @@ div .jumbotron-mt-5 {
     margin-left: 15px;
 }
 
+.card1,
+.card3,
+.card5,
+.card7,
+.card9,
+.card11{
+    background-color: #fe6e60;
+}
+
+.card2,
+.card4,
+.card6,
+.card8,
+.card10,
+.card12{
+    background-color: #6BDEFF;
+}
+
 .div-col-lg-4{
     width: 100%;
     text-align: center; 
