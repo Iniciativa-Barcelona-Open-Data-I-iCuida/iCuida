@@ -43,9 +43,8 @@ body{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-
 .jumbotron {
-    padding: 2rem 1rem;
+    padding: 0 !important;
     margin-bottom: 2rem;
     border-radius: 2rem;
 }
@@ -95,21 +94,6 @@ div .jumbotron-mt-5 {
     font-size: 32px;
     font-weight: bold;
 }
-
-/*
-.div-col-xs-5
-.div-col-sm-6 {
-    background-color:#17a2b8;
-    position: relative;
-    width: 100%;
-    padding: 50px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 0 16px;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-}*/
 
 .h2{
     margin: 0 0 8px;
