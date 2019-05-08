@@ -15,7 +15,7 @@ html, body {
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
-    border-radius: .3rem;
+    border-radius: 2rem;
 }
 
 .form-inline{
@@ -27,8 +27,6 @@ html, body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
@@ -37,7 +35,7 @@ html, body {
 
 div .jumbotron-mt-5 {
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 10;
     line-height: .5;
     text-align: center;
     margin: 0px;

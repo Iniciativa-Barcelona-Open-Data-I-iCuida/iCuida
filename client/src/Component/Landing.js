@@ -20,8 +20,7 @@ export default class Landing extends Component {
             </div>
             <div className="container-fluid mt-3"> 
                 <div className="card-group">
-                <div className="card1 col-lg-4">  
-                {/*UPDATE CARDS with: <https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-cards.php*/}
+                <div className="card1 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Derechos Laborales</h3>
@@ -29,7 +28,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p> 
                 </div>             
             </div>
-                <div className="card2 col-lg-4">  
+                <div className="card2 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Tramites Legales</h3>
@@ -37,7 +36,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button2" role="button">Tramites Legales»</a></p> 
                 </div>             
             </div>
-                <div className="card3 col-lg-4">  
+                <div className="card3 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Seguridad Social</h3>
@@ -45,7 +44,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button3" role="button">Seguridad Social»</a></p> 
                 </div>             
             </div>     
-                <div className="card4 col-lg-4">  
+                <div className="card4 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Extranjería</h3>
@@ -53,7 +52,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button4" role="button">Extranjería»</a></p> 
                 </div>             
             </div>
-            <div className="card5 col-lg-4">  
+            <div className="card5 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Centros de Suporte</h3>
@@ -61,7 +60,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button5" role="button">Centros de Suporte»</a></p> 
                 </div>             
             </div> 
-            <div className="card6 col-lg-4">  
+            <div className="card6 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Cuidado de Dependientes</h3>
@@ -69,7 +68,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button5" role="button">Cuidado de Dependientes»</a></p> 
                 </div>             
             </div> 
-            <div className="card7 col-lg-4">  
+            <div className="card7 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Cuidado de Mayores</h3>
@@ -77,7 +76,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button5" role="button">Cuidado de Mayores»</a></p> 
                 </div>             
             </div> 
-            <div className="card8 col-lg-4">  
+            <div className="card8 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Canguros</h3>
@@ -85,7 +84,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button5" role="button">Canguros»</a></p> 
                 </div>             
             </div>  
-            <div className="card9 col-lg-4">  
+            <div className="card9 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Consejos de Limpieza</h3>
@@ -93,7 +92,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button5" role="button">Consejos de Limpieza»</a></p> 
                 </div>             
             </div>
-            <div className="card10 col-lg-4">  
+            <div className="card10 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Ayudas Prácticas</h3>
@@ -101,7 +100,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button5" role="button">Ayudas Prácticas»</a></p> 
                 </div>             
             </div>
-            <div className="card11 col-lg-4">  
+            <div className="card11 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Recursos de Barcelona</h3>
@@ -109,7 +108,7 @@ export default class Landing extends Component {
                     <p><a className="btn btn-secondary" href="#Button5" role="button">Recursos de Barcelona»</a></p> 
                 </div>             
             </div>
-            <div className="card12 col-lg-4">  
+            <div className="card12 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h3>Otros</h3>
