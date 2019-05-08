@@ -1,14 +1,14 @@
 .bg-newcolor {
     background-color: #fe6e60;
-}
-
-/*.fixed-top {
+  }
+  
+  /*.fixed-top {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
-}*/
+  }*/
 
 .navbar {
     display: flex;
@@ -16,11 +16,10 @@
     color: #ffff;
     padding: 1rem 2rem;
     font-size: 16 px;
-}
-
-.breadcrumb{
-    background-color: #fe6e60; 
+  }
+  
+  .breadcrumb {
+    background-color: #eb9d96;
+    border-radius: none;
     width: 100%; 
-    display: flex;
-    align-items: center;        
-}
+  }
