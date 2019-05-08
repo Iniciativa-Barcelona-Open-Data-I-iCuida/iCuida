@@ -1,14 +1,17 @@
-
+/*GENERAL*/
 html, body {
     width: 100%;
     min-height: 100%;
-    box-sizing: border-box;
+}
+body {
+    padding-bottom: 70px;
 }
 
 ::after, ::before {
     box-sizing: border-box;
 }
 
+/*SEARCHFORM*/
 .search-form {
     background-color: white;
 }
@@ -64,10 +67,11 @@ div .jumbotron-mt-5 {
 }
 
 .div-row{
-    margin: 0 15px;
+   
 }
 
 .row{
+    margin: 0 15px;
     display: flex;
     flex-wrap: wrap;
     margin-right: 15px;
