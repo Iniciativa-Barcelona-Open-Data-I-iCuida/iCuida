@@ -56,6 +56,7 @@ export default class Landing extends Component {
                             <p><a className="btn btn-secondary" href="#Button3" role="button">Seguridad Social »</a></p>
                         </div>
                     </div>
+                    <div className="w-100"></div>
                     <div className="row">  
                         <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Extranjería</h2>
@@ -80,6 +81,7 @@ export default class Landing extends Component {
                             <p><a className="btn btn-secondary" href="#Button6" role="button">Cuidado de Dependientes »</a></p>
                         </div>
                     </div>
+                    <div className="w-100"></div>
                     <div className="row">  
                         <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Cuidado de Mayores</h2>
@@ -104,6 +106,7 @@ export default class Landing extends Component {
                             <p><a className="btn btn-secondary" href="#Button9" role="button">Consejos de Limpieza »</a></p>
                         </div>
                     </div>
+                    <div className="w-100"></div>
                     <div className="row">  
                         <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Ayudas Prácticas</h2>

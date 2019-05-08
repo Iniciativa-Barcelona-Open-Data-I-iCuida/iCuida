@@ -1,18 +1,18 @@
 .bg-newcolor {
-    background-color: orangered;
+    background-color: #fe6e60;
 }
 
-.fixed-top {
+/*.fixed-top {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
-}
+}*/
 
 .navbar {
     display: flex;
     align-items: center;
-    padding: .5rem 1rem;
+    padding: 1rem 2rem;
     font-size: 16 px;
 }
