@@ -31,8 +31,9 @@
 .navbar {
     display: flex;
     align-items: center;
+    text-align: center;
     color: #fe6e60;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
   }
 
   .navbar-nav{
