@@ -19,6 +19,15 @@
     color: #ffff;
     border-color: #ffff;
 }
+
+.navbar-toggler {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+  transition: transform .25s ease, -webkit-transform .25s ease;
+}
+
 .navbar {
     display: flex;
     align-items: center;
