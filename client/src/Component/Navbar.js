@@ -60,6 +60,16 @@ class Navbar extends Component {
                     </ul>
                     {localStorage.usertoken ? userLink : loginRegLink}
                 </div>
+                <div className="bs-example">
+            <nav> 
+                <ol className="breadcrumb">
+                    <li className="breadcrumb-item1"><a href="#Breadcrumb1">1</a></li>
+                    <li className="breadcrumb-item2"><a href="#Breadcrumb2">2</a></li>
+                    <li className="breadcrumb-item3"><a href="#Breadcrumb3">3</a></li>
+                    <li className="breadcrumb-item4"><a href="#Breadcrumb4">4</a></li>
+                </ol>
+            </nav>
+            </div>
             </nav>
         )
     }
