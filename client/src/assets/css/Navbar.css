@@ -2,13 +2,17 @@
     background-color: #fe6e60;
   }
   
-  /*.fixed-top {
+  .navbar-dark .navbar-toggler {
+    color: #ffff;
+    border-color: #ffff;
+}
+  .fixed-top {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
-  }*/
+  }
 
 .navbar {
     display: flex;

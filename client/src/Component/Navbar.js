@@ -1,7 +1,8 @@
 import React, {Component } from 'react';
 import { Link, withRouter} from 'react-router-dom';
 import '../assets/css/Navbar.css';
-export default class Navbar extends Component{
+ 
+class Navbar extends Component{
 
     logOut(e) {
         e.preventDefault()
@@ -55,9 +56,9 @@ export default class Navbar extends Component{
                 <div className="bs-example">
                     <nav aria-label="breadcrumb">   
                         <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="#Breadcrumb1#">Home</a></li>
-                        <li className="breadcrumb-item"><a href="#Breadcrumb2">Login</a></li>
-                        <li className="breadcrumb-item active" aria-current="page">Registrar</li>
+                        <li className="breadcrumb-item"><a href="#Categorias#">Categorias</a></li>
+                        <li className="breadcrumb-item"><a href="#Preguntas">Preguntas</a></li>
+                        <li className="breadcrumb-item"><a href="#Preguntas">Respuestas</a></li>
                         </ol>
                     </nav>
                 </div>
