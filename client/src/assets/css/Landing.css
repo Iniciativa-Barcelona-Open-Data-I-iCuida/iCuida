@@ -3,9 +3,6 @@ html, body {
     width: 100%;
     min-height: 100%;
 }
-body {
-    padding-bottom: 70px;
-}
 
 ::after, ::before {
     box-sizing: border-box;
@@ -64,10 +61,6 @@ div .jumbotron-mt-5 {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
-
-.div-row{
-   
 }
 
 .row{
