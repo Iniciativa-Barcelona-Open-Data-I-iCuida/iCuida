@@ -24,12 +24,14 @@ export default class Landing extends Component {
                     <div className="col-lg-4 col-md-6 col-xl-3"> 
                         <h2>Derechos Laborales</h2>
                         <p>Box1:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p>
                     </div>
                 <div className="row">  
                     <div className="col-lg-4"> 
                         <h2>Tramites Legales</h2>
                         <p>Box2:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Tramites Legales»</a></p>
                     </div>
                 </div>
@@ -37,6 +39,7 @@ export default class Landing extends Component {
                     <div className="col-lg-4"> 
                         <h2>Seguridad Social</h2>
                         <p>Box3:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Seguridad Social»</a></p>
                     </div>
                 </div>      
@@ -44,6 +47,7 @@ export default class Landing extends Component {
                     <div className="col-lg-4"> 
                         <h2>Extranjería</h2>
                         <p>Box4:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Extranjería»</a></p>
                     </div>
                 </div>   
@@ -51,6 +55,7 @@ export default class Landing extends Component {
                     <div className="col-lg-4"> 
                         <h2>Centros de Suporte</h2>
                         <p>Box5:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Centros de Suporte»</a></p>
                     </div>
                 </div>   
@@ -58,6 +63,7 @@ export default class Landing extends Component {
                     <div className="col-lg-4"> 
                         <h2>Cuidado de Dependientes</h2>
                         <p>Box6:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Cuidado de Dependientes»</a></p>
                     </div>
                 </div>  
@@ -65,6 +71,7 @@ export default class Landing extends Component {
                     <div className="col-lg-4"> 
                         <h2>Cuidado de Mayores </h2>
                         <p>Box7:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Cuidado de Mayores»</a></p>
                     </div>
                 </div>  
@@ -72,6 +79,7 @@ export default class Landing extends Component {
                     <div className="col-lg-4"> 
                         <h2>Canguros</h2>
                         <p>Box8:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Canguros»</a></p>
                     </div>
                 </div> 
@@ -79,6 +87,7 @@ export default class Landing extends Component {
                     <div className="col-lg-4"> 
                         <h2>Consejos de Limpieza </h2>
                         <p>Box9:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Consejos de Limpieza»</a></p>
                     </div>
                 </div>   
@@ -86,6 +95,7 @@ export default class Landing extends Component {
                     <div className="col-lg-4"> 
                         <h2>Ayudas Prácticas</h2>
                         <p>Box10:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Ayudas Prácticas»</a></p>
                     </div>
                 </div>  
@@ -93,6 +103,7 @@ export default class Landing extends Component {
                     <div className="col-lg-4"> 
                         <h2>Recursos de Barcelona</h2>
                         <p>Box11:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Recursos de Barcelona»</a></p>
                     </div>
                 </div>  
@@ -100,6 +111,7 @@ export default class Landing extends Component {
                     <div className="col-lg-4"> 
                         <h2>Otros</h2>
                         <p>Box12:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src="..." alt="..." class="img-thumbnail"></img>
                         <p><a className="btn btn-secondary" href="#Button1" role="button">Otros»</a></p>
                     </div>
                 </div>    
