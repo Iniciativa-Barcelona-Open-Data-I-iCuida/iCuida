@@ -37,32 +37,29 @@ class Navbar extends Component{
         
         return(
             <React.Fragment>
+                <div class="bs-example"> 
                 <nav className="navbar navbar-expand-md navbar-dark bg-newcolor">
-                    <button className="navbar-toggler"
+                    <a href="#iCuida" class="navbar-brand">iCuida</a>
+                    <button className="navbar-toggler" 
                     type="button"
                     data-toggle="collapse"
-                    data-target="#navbar1"
-                    aria-controls="navbar1"
+                    data-target="#navbarCollapse"
+                    aria-controls="#navbarCollapse"
                     aria-expanded="false"
                     aria-label="Toggle navigation">
                         <span className="navbar-toggle-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse justify-content-md-center"id="navbar1">
+                    <div className="collapse navbar-collapse justify-content-md-center"id="navbarCollapse">
                         <ul className="navbar-nav">
-                            <li className="nav-item"><a to="/" className="nav-link">Home</a></li>
+                        <li className="nav-breadcrumb-item"><a href="#Home" className="nav-link active">Home</a></li>
+                        <li className="nav-breadcrumb-item"><a href="#Categorias" className="nav-link active">Categorias</a></li>
+                        <li className="nav-breadcrumb-item"><a href="#Preguntas" className="nav-link active">Preguntas</a></li>
+                        <li className="nav-breadcrumb-item"><a href="#Respuestas" className="nav-link active">Respuestas</a></li>
                         </ul>
                         {localStorage.usertoken ? userLink : loginRegLink}
                     </div>
-                <div className="bs-example">
-                    <nav aria-label="breadcrumb">   
-                        <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="#Categorias#">Categorias</a></li>
-                        <li className="breadcrumb-item"><a href="#Preguntas">Preguntas</a></li>
-                        <li className="breadcrumb-item"><a href="#Preguntas">Respuestas</a></li>
-                        </ol>
-                    </nav>
-                </div>
                 </nav>
+                </div>
             </React.Fragment>
             )
         }
