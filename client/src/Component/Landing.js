@@ -21,6 +21,7 @@ export default class Landing extends Component {
             <div className="container-fluid mt-3"> 
                 <div className="card-group">
                 <div className="card">  
+                {/*UPDATE CARDS with: <https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-cards.php*/}
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">
                     <h5>Derechos Laborales</h5>
