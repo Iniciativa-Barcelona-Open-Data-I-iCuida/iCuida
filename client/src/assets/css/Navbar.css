@@ -5,18 +5,20 @@
 .bs-example{
   margin: 20px;
 }
-  .navbar-dark .navbar-toggler {
+/*position*/
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+/*NAV BAR*/
+.navbar-dark .navbar-toggler {
     color: #ffff;
     border-color: #ffff;
 }
-  .fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
-
 .navbar {
     display: flex;
     align-items: center;
@@ -26,7 +28,7 @@
   }
 
   .navbar-nav{
-    background-color: #eb9d96;
+    background-color: #6BDEFF;/*#eb9d96;*/
     border-radius: none;
     width: 100%; 
   }
