@@ -71,20 +71,30 @@ div .jumbotron-mt-5 {
     margin-left: 15px;
 }
 
+.div-col-lg-4{
+    width: 100%;
+    text-align: center; 
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*
 .div-col-xs-5
-.div-col-sm-6, 
-.div-col-lg-4 {
+.div-col-sm-6 {
     background-color:#17a2b8;
     position: relative;
     width: 100%;
-    /*padding: 50px;*/
+    padding: 50px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 0 16px;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-}
+}*/
 
 .h2{
     margin: 0 0 8px;
@@ -103,6 +113,7 @@ div .jumbotron-mt-5 {
 /* Add media queries */
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {  
+    col-lg-4,
     col-xs-5 {
         width: 100%;
     }
@@ -110,6 +121,7 @@ div .jumbotron-mt-5 {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {  
+    col-lg-4,
     col-sm-6 {
         width: 75%;
     }
@@ -124,6 +136,7 @@ div .jumbotron-mt-5 {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
+    col-lg-4,
     col-sm-6 {
         width: 50%;
     }
