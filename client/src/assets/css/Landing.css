@@ -4,6 +4,10 @@ html, body {
     min-height: 100%;
 }
 
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
 ::after, ::before {
     box-sizing: border-box;
 }
@@ -12,10 +16,16 @@ html, body {
 .search-form {
     background-color: white;
 }
-.jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    border-radius: 2rem;
+
+.form-control {
+    box-shadow: none;		
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-color: #33cabb;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
 .form-inline{
@@ -31,6 +41,13 @@ html, body {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
 }
 
 div .jumbotron-mt-5 {
