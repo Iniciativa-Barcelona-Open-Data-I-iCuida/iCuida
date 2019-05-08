@@ -37,9 +37,9 @@ class Navbar extends Component{
         
         return(
             <React.Fragment>
-                <div class="bs-example"> 
+                <div className="bs-example"> 
                 <nav className="navbar navbar-expand-md navbar-dark bg-newcolor">
-                    <a href="#iCuida" class="navbar-brand">iCuida</a>
+                    <a href="#iCuida" className="navbar-brand">iCuida</a>
                     <button className="navbar-toggler" 
                     type="button"
                     data-toggle="collapse"
