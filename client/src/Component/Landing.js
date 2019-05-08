@@ -25,9 +25,10 @@ export default class Landing extends Component {
                 <div className="card-body">
                     <h5>Derechos Laborales</h5>
                     <p className="card-text">Box1:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p> 
                 </div> 
                     <div className="card-footer">
-                    <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p> 
+                    <small class="text-muted">Updated 3 mins ago</small>
                 </div>              
             </div>
 
