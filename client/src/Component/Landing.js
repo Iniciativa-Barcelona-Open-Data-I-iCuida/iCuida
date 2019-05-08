@@ -14,21 +14,47 @@ export default class Landing extends Component {
                                 <div className="input-group"> </div>
                                 <input type="text" className="form-control" placeholder="Search"></input>
                                 <div className="input-group-append"></div>
-                                <button type="button" className="btn btn-secondary">
-                                    <i className="fa fa-search"></i></button>
                                 </form>
                             </nav>
                         </div>
                     </div>
             </div>
             <div className="container-fluid mt-3"> 
-                    <div className="row">  
-                        <div className="col-lg-4 col-md-6 col-xl-3"> 
-                            <h2>Derechos Laborales</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            </p>
-                            <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p>
+                <div className="row">  
+                    <div className="col-lg-4 col-md-6 col-xl-3"> 
+                        <h2>Derechos Laborales</h2>
+                        <p>Box1</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p>
                     </div>
+                <div className="row">  
+                    <div className="col-lg-4 col-md-6 col-xl-3"> 
+                        <h2>Tramites Legales</h2>
+                        <p>Box2</p>
+                        <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p>
+                    </div>
+                </div>
+                <div className="row">  
+                    <div className="col-lg-4 col-md-6 col-xl-3"> 
+                        <h2>Seguridad Social</h2>
+                        <p>Box3</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p>
+                    </div>
+                </div>    
+           
+    
+            <div class="col-lg-4"><p>Box 4</p></div>
+            <div class="col-lg-4"><p>Box 5</p></div>
+            <div class="col-lg-4"><p>Box 6</p></div>
+            <div class="col-lg-4"><p>Box 7</p></div>
+            <div class="col-lg-4"><p>Box 8</p></div>
+            <div class="col-lg-4"><p>Box 9</p></div>
+            <div class="col-lg-4"><p>Box 10</p></div>
+            <div class="col-lg-4"><p>Box 11</p></div>
+            <div class="col-lg-4"><p>Box 12</p></div>
+                  
+                  
                     <div className="row">  
                         <div className="col-lg-4 col-md-6 col-xl-3"> 
                             <h2>Tramites Legales</h2>
