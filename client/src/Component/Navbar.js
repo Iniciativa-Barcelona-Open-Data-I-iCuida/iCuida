@@ -50,8 +50,8 @@ class Navbar extends Component{
                         <span className="navbar-toggle-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-md-center"id="navbarCollapse">
-                        {localStorage.usertoken ? userLink : loginRegLink}
                         <ul className="navbar-nav">
+                        {localStorage.usertoken ? userLink : loginRegLink}
                         <li className="nav-breadcrumb-item"><a href="#Home" className="nav-link active">Home</a></li>
                         <li className="nav-breadcrumb-item"><a href="#Categorias" className="nav-link active">Categorias</a></li>
                         <li className="nav-breadcrumb-item"><a href="#Preguntas" className="nav-link active">Preguntas</a></li>
