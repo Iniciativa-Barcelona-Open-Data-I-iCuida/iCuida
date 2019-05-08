@@ -8,7 +8,6 @@ export default class Landing extends Component {
             <main role="main">
             <div className="container-fluid">
                     <div className="jumbotron mt-5">
-                        <h1 className="text-center">iCuida</h1>
                         <div className="search-form">
                             <nav>
                                 <form className="form-inline">
