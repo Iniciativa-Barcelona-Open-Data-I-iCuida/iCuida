@@ -11,7 +11,7 @@ export default class Landing extends Component {
                         <nav>
                             <form className="form-inline ml-auto">
                             <input type="text" className="form-control mr-sm-2" placeholder="Search"></input>
-                            <button type="submit" className="btn btn-outline-light">Search</button>
+                            <button type="submit" className="btn btn-outline">Search</button>
                             </form>   
                         </nav>
                     </div>
