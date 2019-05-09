@@ -10,7 +10,12 @@ export default class Landing extends Component {
                     <div className="search-form">
                         <nav>
                             <form className="form-inline ml-auto">
-                            <input type="text" className="form-control mr-sm-2" placeholder="Search"></input>
+                            <input type="text" 
+                                   className="form-control mr-sm-2" 
+                                   placeholder="Busca" 
+                                   id="searchInput" 
+                                   className="search">
+                            </input>
                             </form>   
                         </nav>
                     </div>
