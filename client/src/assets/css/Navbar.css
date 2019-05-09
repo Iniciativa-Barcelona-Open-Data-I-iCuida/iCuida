@@ -53,6 +53,9 @@ body{
     text-align: center;
     color: #fe6e60;
     padding: 1rem 1rem;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .navbar-nav{
