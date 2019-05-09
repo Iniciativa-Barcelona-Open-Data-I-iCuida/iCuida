@@ -46,11 +46,31 @@ body{
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
-.placeholder{
+.site-search .search {
+    margin-left: 0;
+    box-sizing: border-box;
+    float: center;
+    height: 32px;
+    line-height: 32px;
     width: 100%;
-    margin:2 2 2 2px;
 }
 
+input.search {
+    background: #fff;
+    border: 0 none;
+    color: #807E7E;
+    float: left;
+    height: 38px;
+    line-height: 26px;
+    font-size: 14px;
+    margin: 0 0 0 12px;
+    outline: medium none;
+    padding: 0 15px;
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.6);
+    font-family: inherit;
+}
 
 .jumbotron {
     padding: 0 !important;
@@ -69,7 +89,7 @@ div .jumbotron-mt-5 {
 .mt-5 {
     margin-top: 0px;
     margin-bottom: 0px;
-}
+}*/
 
 .div container-fluid{
     margin: 0px 32,6667px;
