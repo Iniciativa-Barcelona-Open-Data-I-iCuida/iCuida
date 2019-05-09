@@ -52,11 +52,6 @@ body{
     margin:2 2 2 2px;
 }
 
-.btn-btn-outline-dark{
-    border-color: #6BDEFF;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    text-align:right;
-}
 
 .jumbotron {
     padding: 0 !important;
