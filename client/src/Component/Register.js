@@ -112,7 +112,12 @@ class Register extends Component {
                             </button>
                             </div> 
                             <a href="#" 
-                                className="pull-right text-success">Olvidaste la contraseña?</a>
+                                className="pull-right text-success">Olvidaste la contraseña?
+                            </a>
+                            <div className="hint-text small">¿No eres miembro? 
+                                <a href="#" className="text-success">Registrar ahora!
+                                </a>
+                            </div>
                         </form>
                     </div>
                 </div>
