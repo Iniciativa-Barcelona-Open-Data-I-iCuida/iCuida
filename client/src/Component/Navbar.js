@@ -52,9 +52,9 @@ class Navbar extends Component{
                     <div className="collapse navbar-collapse justify-content-md-center"id="navbarCollapse">
                         <ul className="navbar-nav">
                         <li className="nav-breadcrumb-item"><a href="#Home" className="nav-link active">Home</a></li>
-                        <li className="nav-breadcrumb-item"><a href="#Categorias" className="nav-link active">Categorias</a></li>
-                        <li className="nav-breadcrumb-item"><a href="#Preguntas" className="nav-link active">Preguntas</a></li>
-                        <li className="nav-breadcrumb-item"><a href="#Respuestas" className="nav-link active">Respuestas</a></li>
+                        <li className="nav-breadcrumb-item"><a href="#https://icuida.barcelona/categorias" className="nav-link active">Categorias</a></li>
+                        <li className="nav-breadcrumb-item"><a href="#https://icuida.barcelona/preguntas" className="nav-link active">Preguntas</a></li>
+                        <li className="nav-breadcrumb-item"><a href="#https://icuida.barcelona/respuestas" className="nav-link active">Respuestas</a></li>
                         {localStorage.usertoken ? userLink : loginRegLink}
                         </ul>
                     </div>
