@@ -7,16 +7,14 @@ export default class Landing extends Component {
             <React.Fragment>
             <main role="main">
             <div className="container-fluid">
-                <div className="jumbotron mt-5">
                     <div className="search-form">
                         <nav>
-                            <form className="form-inline">
-                            <div className="input-group">
-                            <input type="text" className="form-control" placeholder="Search"></input> </div>
-                            </form>
+                            <form className="form-inline ml-auto">
+                            <input type="text" className="form-control mr-sm-2" placeholder="Search"></input>
+                            <button type="submit" className="btn btn-outline-light">Search</button>
+                            </form>   
                         </nav>
                     </div>
-                </div>
             </div>
             <div className="container-fluid mt-3"> 
                 <div className="card-group">
