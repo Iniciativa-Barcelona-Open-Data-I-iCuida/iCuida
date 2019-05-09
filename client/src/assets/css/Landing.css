@@ -5,7 +5,9 @@
 html, body {
     width: 100%;
     min-height: 100%;
+    font-size: 16px;
 }
+
 
 body{
     font-family: 'myriad-pro','Montserrat','sans-serif';
