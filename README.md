@@ -1,6 +1,5 @@
 # iCuida
 
-
 ## Quick Installation Overview
 This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ```sh
@@ -30,6 +29,9 @@ icuida
     ├── logo.svg
     └── serviceWorker.js
 ```
+## The current project structure:
+ ![](image.png) 
+
 ## Available Scripts
 In the project directory, you can run:
 
@@ -60,4 +62,4 @@ icuida is open source software [licensed as MIT](https://github.com/dianavile/iC
 - [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 - [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
 - [Troubleshoot`npm run build`fails to minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
--
+
