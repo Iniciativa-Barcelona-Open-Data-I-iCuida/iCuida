@@ -13,8 +13,7 @@ export default class Landing extends Component {
                             <input type="text" 
                                    className="form-control mr-sm-2" 
                                    placeholder="Busca" 
-                                   id="searchInput" 
-                                   className="search">
+                                   id="searchInput">
                             </input>
                             </form>   
                         </nav>
