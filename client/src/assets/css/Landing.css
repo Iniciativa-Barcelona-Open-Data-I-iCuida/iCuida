@@ -47,9 +47,9 @@ body{
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
-.btn-btn-outline{
+.btn-btn-outline-dark{
     border-color: #6BDEFF;
-    box-shadow: 0 0 8px#6BDEFF;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
 .jumbotron {
