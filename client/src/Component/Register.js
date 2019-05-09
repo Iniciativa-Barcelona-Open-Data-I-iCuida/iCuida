@@ -57,12 +57,8 @@ class Register extends Component {
                             <a href="#" className="btn btn-primary btn-block"><i className="fa fa-facebook"></i> Registrar con <b>Facebook</b></a>
 			                <a href="#" className="btn btn-danger btn-block"><i className="fa fa-google"></i> Registrar con <b>Google</b></a>
                         </div>
-                        <div className="or-seperator"><i>or</i></div>
                         <hr></hr>
-                        <div className="hint-text small">¿No eres miembro? 
-                            <a href="#" className="text-success">Registrar ahora!
-                            </a>
-                        </div>
+                        <div class="or-seperator"><i>or</i></div>                       
                             <div className="form-group">
                             <label htmlFor="user_name">Nombre de Usuario</label>
                             <div class="input-group">
@@ -119,6 +115,10 @@ class Register extends Component {
                             <a href="#" 
                                 className="pull-right text-success">Olvidaste la contraseña?
                             </a>
+                            <div className="hint-text small">¿No eres miembro? <br></br>
+                            <a href="#" className="text-success">Registrar ahora!
+                            </a>
+                        </div>
                         </form>
                     </div>
                 </div>
