@@ -72,6 +72,10 @@ input.search {
     font-family: inherit;
 }
 
+.search-box {
+    position: relative;
+  }
+
 .jumbotron {
     padding: 0 !important;
     margin-bottom: 2rem;
@@ -177,7 +181,15 @@ div .jumbotron-mt-5 {
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
     .container {
-        max-width: 960px;
+        max-width: 960px;    
+    }
+    .form-inline, 
+    .input-group, 
+    .form-control {
+      width: 100%;			
+    }
+    .form-inline {
+        display: block;
     }
 }
 
