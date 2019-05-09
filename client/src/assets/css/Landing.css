@@ -1,3 +1,6 @@
+@import url("https://use.typekit.net/ory5afa.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 /*GENERAL*/
 html, body {
     width: 100%;
@@ -5,7 +8,9 @@ html, body {
 }
 
 body{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'myriad-pro','Montserrat','sans-serif';
+    font-weight: 700;
+    font-style: normal;
 }
 
 ::after, ::before {
