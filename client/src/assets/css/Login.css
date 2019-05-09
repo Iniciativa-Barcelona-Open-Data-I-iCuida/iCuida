@@ -16,3 +16,11 @@ body{
 ::after, ::before {
     box-sizing: border-box;
 }
+
+/*BUTTON*/
+.btn-primary {
+    color: #fff;
+    background-color: #6BDEFF;
+    border-color: #6BDEFF;
+}
+
