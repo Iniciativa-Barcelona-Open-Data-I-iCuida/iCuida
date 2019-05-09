@@ -18,34 +18,32 @@ body{
 }
 
 /*SEARCHFORM*/
-.search-form {
-    background-color: white;
+
+.form-inline-ml-auto{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    vertical-align: middle;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.form-control {
+.form-control-mr-sm-2 {
     box-shadow: none;		
     font-weight: normal;
     font-size: 16px;
 }
 
 .form-control:focus {
-    border-color: #33cabb;
+    border-color: #6BDEFF;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
-}
-
-.form-inline{
-    display: block;
-    width: 100%;
-    align-items: center;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .jumbotron {
