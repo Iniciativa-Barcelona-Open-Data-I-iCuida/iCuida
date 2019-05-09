@@ -76,13 +76,19 @@ class Register extends Component {
                         </div>
                             <div className="form-group">
                                 <label htmlFor="email">Correo Electrónico</label>
+                                <div className="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-lock"></i>
+                                    </span>
                                 <input type="email"
-                                       className="form-control"
+                                        className="form-control"
                                        name="email"
                                        placeholder="Entrar Correo"
                                        required="required"
                                        value={this.state.email}
-                                       onChange={this.onChange}/>
+                                       onChange={this.onChange}
+                                />
+                                </div>                        
                             </div>
                             <div className="form-group">
                                 <label htmlFor="password">Contraseña</label>
@@ -104,7 +110,9 @@ class Register extends Component {
                                     className="btn btn-lg btn-success btn-block login-btn">
                                 Registrar
                             </button>
-                            </div>
+                            </div> 
+                            <a href="#" 
+                                className="pull-right text-success">Olvidaste la contraseña?</a>
                         </form>
                     </div>
                 </div>
