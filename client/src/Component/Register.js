@@ -111,11 +111,12 @@ class Register extends Component {
                                     className="btn btn-lg btn-success btn-block login-btn">
                                 Registrar
                             </button>
-                            </div> 
+                            </div>
                             <a href="#" 
                                 className="pull-right text-success">Olvidaste la contraseña?
                             </a>
-                            <div className="hint-text small">¿No eres miembro? <br></br>
+                            <hr></hr> 
+                            <div className="hint-text small">¿Todavía no eres miembro? <br></br>
                             <a href="#" className="text-success">Registrar ahora!
                             </a>
                         </div>
