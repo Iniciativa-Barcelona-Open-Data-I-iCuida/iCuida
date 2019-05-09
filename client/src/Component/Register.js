@@ -59,31 +59,45 @@ class Register extends Component {
                         </div>
                         <div className="or-seperator"><i>or</i></div>
                             <div className="form-group">
-                                <label htmlFor="user_name">Nombre de Usuario</label>
-                                <input type="user_name"
-                                       className="form-control"
-                                       name="user_name"
-                                       placeholder="Entrar Nombre"
-                                       value={this.state.last_name}
-                                       onChange={this.onChange}/>
+                            <label htmlFor="user_name">Nombre de Usuario</label>
+                            <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-user"></i>
+                            </span>
+                            <input type="user_name"
+                                    className="form-control"
+                                    name="user_name"
+                                    placeholder="Entrar Nombre"
+                                    required="required"
+                                    value={this.state.last_name}
+                                    onChange={this.onChange}
+                            />
                             </div>
+                        </div>
                             <div className="form-group">
                                 <label htmlFor="email">Correo Electrónico</label>
                                 <input type="email"
                                        className="form-control"
                                        name="email"
                                        placeholder="Entrar Correo"
+                                       required="required"
                                        value={this.state.email}
                                        onChange={this.onChange}/>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="password">Contraseña</label>
+                                <div className="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-lock"></i>
+                                    </span>
                                 <input type="password"
                                        className="form-control"
                                        name="password"
                                        placeholder="Entrar Contraseña"
+                                       required="required"
                                        value={this.state.password}
                                        onChange={this.onChange}/>
+                                </div>
                             </div>
                             <button type="submit"
                                     className="btn btn-lg btn-primary btn-block">
