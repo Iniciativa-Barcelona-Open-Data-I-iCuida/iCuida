@@ -36,7 +36,7 @@ class Login extends Component {
                         <form noValidate onSubmit={this.onSubmit}>
                             <h1 className="h3 mb-3 font-weight-normal">Please sign in</h1>
                             <div className="form-group">
-                                <label htmlFor="email">Email Address</label>
+                                <label htmlFor="email">Correo Eléctronico</label>
                                 <input type="email"
                                        className="form-control"
                                        name="email"
@@ -45,7 +45,7 @@ class Login extends Component {
                                        onChange={this.onChange}/>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="password">Password</label>
+                                <label htmlFor="password">Contraseña</label>
                                 <input type="password"
                                        className="form-control"
                                        name="password"
@@ -55,7 +55,7 @@ class Login extends Component {
                             </div>
                             <button type="submit"
                                     className="btn btn-lg btn-primary btn-block">
-                                Sign in
+                                Entrar
                             </button>
                         </form>
                     </div>
