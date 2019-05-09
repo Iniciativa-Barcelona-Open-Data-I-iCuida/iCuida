@@ -53,7 +53,7 @@ class Register extends Component {
                     <div className="col-m-6 mt-5 mx-auto">
                         <form  className= "loginform" noValidate onSubmit={this.onSubmit}>
                         <h1 className="text-center h3 mb-3 font-weight-normal">Registrar</h1>	
-                        <div class="text-center social-btn">
+                        <div className="text-center social-btn">
                             <a href="#" className="btn btn-primary btn-block"><i className="fa fa-facebook"></i> Registrar con <b>Facebook</b></a>
 			                <a href="#" className="btn btn-danger btn-block"><i className="fa fa-google"></i> Registrar con <b>Google</b></a>
                         </div>
