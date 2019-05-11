@@ -8,7 +8,6 @@ html, body {
     font-size: 16px;
 }
 
-
 body{
     font-family: 'myriad-pro','Montserrat','sans-serif';
     font-weight: 700;
@@ -78,6 +77,7 @@ input.search {
     position: relative;
   }
 
+  /*
 .jumbotron {
     padding: 0 !important;
     margin-bottom: 2rem;
@@ -111,14 +111,18 @@ div .jumbotron-mt-5 {
     margin-left: auto;
 }
 
+/*
 .row{
     margin: 0 15px;
     display: flex;
     flex-wrap: wrap;
     margin-right: 15px;
     margin-left: 15px;
-}
+}*/
 
+.bs-example{
+    margin: 20px;        
+}
 /*CARDS*/
 .card1,
 .card3,
@@ -139,6 +143,12 @@ div .jumbotron-mt-5 {
     background-color: #6BDEFF;
 }
 
+div.px-4 {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+
 .div-col-lg-4{
     width: 100%;
     text-align: center; 
@@ -148,6 +158,8 @@ div .jumbotron-mt-5 {
     font-size: 32px;
     font-weight: bold;
 }
+
+
 
 .h2{
     margin: 0 0 8px;
