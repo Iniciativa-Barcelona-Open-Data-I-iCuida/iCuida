@@ -9,7 +9,10 @@ module.exports = db.sequelize.define(
             primaryKey: true,
             autoIncrement: true,
         },
-        question: {
+        title: {
+            type: Sequelize.STRING
+        },
+        description: {
             type: Sequelize.STRING
         },
         created_at: {
