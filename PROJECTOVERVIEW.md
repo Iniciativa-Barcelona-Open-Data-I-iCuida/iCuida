@@ -6,7 +6,7 @@ __General Setup__
 - [X] [Create React App](https://github.com/facebook/create-react-app) 
 - [X] [React router](https://www.npmjs.com/package/react-router)
 - [V] [Redux setup](https://redux.js.org/introduction/installation), [DOCUMENTATION](https://redux.js.org/)
-- [NEEDED?] [Create React Native](https://facebook.github.io/react-native/docs/getting-started) Based on [Write Once, Run Everywhere](https://medium.com/@yannickdot/write-once-run-anywhere-with-create-react-native-app-and-react-native-web-ad40db63eed0?source=linkShare-a8269b9b7b42-1556841033&_branch_match_id=631442601197236156)
+- [PROBABLY NOT NEEDED] [Create React Native](https://facebook.github.io/react-native/docs/getting-started) Based on [Write Once, Run Everywhere](https://medium.com/@yannickdot/write-once-run-anywhere-with-create-react-native-app-and-react-native-web-ad40db63eed0?source=linkShare-a8269b9b7b42-1556841033&_branch_match_id=631442601197236156)
 
 ## PROJECT STRUCTURE folder:
 - I propose the following __Folder Structure__ of the iCuida Web App:
@@ -46,8 +46,8 @@ icuida
 ## User Stories:
 __##Feature 1: Loader__
 To load the app, we use a loading/spinner.
-- [] If user click on iCuida ion, the web App will load.
-- [] A loading icon/spinner bar will appear, while loading the app.
+- [] If user click on iCuida icon, the web App will load.
+- [x] A loading icon/spinner bar will appear, while loading the app.
 - [] Screen changes from blue to orange color.
 - [] Loading may take max 3 sec.
 
@@ -56,34 +56,32 @@ Create a login and signup Page
 User can only go to homepage, if signup/login after succesfull authentification.
 User validation is needed, and Safe Authentication via Two-step verification on mobile is a requisitos to maintain safety. 
 __SETUP__
-- [] Create Login Form 
+- [x] Create Login Form 
 - [] Validate Login Form
-- [] Add Page Components: Homepage, SignupPage, LoginPage, DashboardPage
-- [] BACKEND: Nodejs, Express.js setup
+- [x] Add Page Components: Homepage, SignupPage, LoginPage, DashboardPage
+- x[] BACKEND: Nodejs, Express.js setup
 - [] BACKEND: Authentification
-- [] BACKEND: Authorize Routes
+- [x] BACKEND: Authorize Routes
 - [] BACKEND: API for user identification
 - [] BACKEND: User data, generation and verification on backend.
 __APP LOGIC__
-- [] Click on login
+- [x] Click on login
 - [] Go to separate route= login Route= Form
 - [] Conditional: if login = succesfull, redirect user to dashboard (=homepage)
 - [] Dashboard Route= Authorized, only authenticated users can go into web app homepage
 - [] Conditional content: if user is authenticated, run II if not, message: please sign up/login.
-- [] Conditional content: if user is ALREADY authenticated, go to dashboar (web app homepage).
+- [] Conditional content: if user is ALREADY authenticated, go to dashboard (web app homepage).
 
 _Example DOC_
 [BookwormApp](https://github.com/Remchi/bookworm-react)
 [BookwormApp-YouTube](https://www.youtube.com/watch?v=Pi5apIbuiYg&list=PLuNEz8XtB51KthRFiVt)
 [PWA with Oauth](https://medium.com/@jonnykalambay/progressive-web-apps-with-oauth-dont-repeat-my-mistake-16a4063ce113)
+[StackOverflow Clone](https://github.com/sjcoeanand/codeoverflow)
 
 __##Feature 3: HomePage with Categories__
-- [] If App is loaded and customer is signed up/logged in, the homepage will show.
-- [] On homepage all categories for questions and answers are stated with small icon, name in button or box.
-- [] On click button, user goes to specific category.
-
-__ERRORES__
-[./src/components/Landing.js](https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md)
+- [x] If App is loaded and customer is signed up/logged in, the homepage will show.
+- [x] On homepage all categories for questions and answers are stated with small icon, name in button or box.
+- [x] On click button, user goes to specific category.
 
  __##Feature 4: Static: Questions__
 - [] 
