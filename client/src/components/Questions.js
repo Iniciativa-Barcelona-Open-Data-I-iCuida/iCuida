@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {questions} from "./QuestionFunctions";
-import { Router, Route, Link} from 'react-router-dom';
+import { /*Router*/ Route, Link} from 'react-router-dom';
 
 export default class Questions extends Component {
 
@@ -19,7 +19,6 @@ export default class Questions extends Component {
             })
 
     }
-
     renderQuestions(objectData) {
 
             return objectData.map(val => {

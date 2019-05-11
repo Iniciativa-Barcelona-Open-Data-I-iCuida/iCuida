@@ -20,6 +20,7 @@ export default class Question extends Component {
     }
 
     getUrl() {
+        // eslint-disable-next-line
         let pathname = window. location. pathname;
 
         let pathId = pathname.split('/').filter(val => {
