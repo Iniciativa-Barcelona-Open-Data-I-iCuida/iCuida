@@ -1,15 +1,16 @@
 import axios from 'axios';
 
-export const askQuestion = newQuestion => {
+export const askQuestion = question => {
     return axios
-        .post('questions/question', {
-            question: newQuestion.question,
+        .post('/questions', {
+            title: question.title,
+            description: question.description
         })
         .then(res => {
-            console.log("Question submitted")
+            return res;
         })
         .catch( err => {
-            console.log(err)
+            return err
         })
 }
 
@@ -33,4 +34,18 @@ export const question = (id) => {
         .catch(err => {
             return(err);
         })
+}
+
+export const answer = (answer) => {
+    return axios
+        .post('/answer', {
+            answer: answer.answer
+        })
+        .then(res => {
+            return res
+        })
+        .catch(err => {
+            return err
+        })
+
 }
