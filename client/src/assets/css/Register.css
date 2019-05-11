@@ -45,18 +45,6 @@ body{
     font-size: 15px;
     font-weight: bold;
 }
-.or-seperator {
-    margin: 20px 0 10px;
-    text-align: center;
-    border-top: 1px solid #ccc;
-}
-.or-seperator i {
-    padding: 0 10px;
-    background: #f7f7f7;
-    position: relative;
-    top: -11px;
-    z-index: 1;
-}
 
 .social-btn .btn {
     margin: 10px 0;
@@ -71,4 +59,9 @@ body{
 }
 .input-group-addon .fa{
     font-size: 18px;
+}
+
+/*LOGIN BUTTON*/
+.btn-btn-lg-btn-success-btn-block-login-btn {
+    background-color: #6BDEFF;
 }

@@ -143,12 +143,6 @@ div .jumbotron-mt-5 {
     background-color: #6BDEFF;
 }
 
-div.px-4 {
-    width: 300px;
-    padding: 25px;
-    box-sizing: border-box;
-  }
-
 .div-col-lg-4{
     width: 100%;
     text-align: center; 
@@ -158,8 +152,6 @@ div.px-4 {
     font-size: 32px;
     font-weight: bold;
 }
-
-
 
 .h2{
     margin: 0 0 8px;
@@ -173,6 +165,10 @@ div.px-4 {
 .p{
     margin-top: 0;
     margin-bottom: 1rem;
+    padding: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* Add media queries */

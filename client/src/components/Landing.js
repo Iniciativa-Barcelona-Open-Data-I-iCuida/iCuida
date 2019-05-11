@@ -20,8 +20,7 @@ export default class Landing extends Component {
                     </div>
             </div>
             <div className="container-fluid mt-3"> 
-                <div className="card-group">
-                <div class="px-4"> </div>                   
+                <div className="card-group">                 
                 <div className="card1 col-md-6 col-lg-4 col-xl-3">  
                     {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
                 <div className="card-body">

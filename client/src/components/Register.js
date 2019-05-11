@@ -38,7 +38,7 @@ class Register extends Component {
                 <div className="form-group">   
                         <div className="input-group">
                             <span className="input-group-addon">
-                            <i className="fa fa-lock"></i>
+                            <i className="fa fa-lock"> </i> 
                             </span>
                             <input type="password" 
                                 className="form-control" 
@@ -53,16 +53,15 @@ class Register extends Component {
                         <form  className= "loginform" noValidate onSubmit={this.onSubmit}>
                         <h1 className="text-center h3 mb-3 font-weight-normal">Registrar</h1>	
                         <div className="text-center social-btn">
-                            <a href="#" className="btn btn-primary btn-block"><i className="fa fa-facebook"></i> Registrar con <b>Facebook</b></a>
-			                <a href="#" className="btn btn-danger btn-block"><i className="fa fa-google"></i> Registrar con <b>Google</b></a>
+                            <a href="#RegistrarFacebook" className="btn btn-primary btn-block"><i className="fa fa-facebook"> </i>  Registrar con <b>Facebook</b></a>
+			                <a href="#RegistrarGoogle" className="btn btn-danger btn-block"><i className="fa fa-google"> </i>  Registrar con <b>Google</b></a>
                         </div>
-                        <hr></hr>
-                        <div class="or-seperator"><i>or</i></div>                       
+                        <hr></hr>                    
                             <div className="form-group">
                             <label htmlFor="user_name">Nombre de Usuario</label>
                             <div class="input-group">
                             <span class="input-group-addon">
-                                <i class="fa fa-user"></i>
+                                <i class="fa fa-user"> </i> 
                             </span>
                             <input type="user_name"
                                     className="form-control"
@@ -78,7 +77,7 @@ class Register extends Component {
                                 <label htmlFor="email">Correo Electrónico</label>
                                 <div className="input-group">
                                     <span class="input-group-addon">
-                                        <i class="fa fa-lock"></i>
+                                        <i class="fa fa-lock"> </i> 
                                     </span>
                                 <input type="email"
                                         className="form-control"
@@ -94,7 +93,7 @@ class Register extends Component {
                                 <label htmlFor="password">Contraseña</label>
                                 <div className="input-group">
                                     <span class="input-group-addon">
-                                        <i class="fa fa-lock"></i>
+                                        <i class="fa fa-lock"> </i> 
                                     </span>
                                 <input type="password"
                                        className="form-control"
@@ -111,12 +110,12 @@ class Register extends Component {
                                 Registrar
                             </button>
                             </div>
-                            <a href="#" 
+                            <a href="#OlvidarContraseño" 
                                 className="pull-right text-success">Olvidaste la contraseña?
                             </a>
                             <hr></hr> 
                             <div className="hint-text small">¿Todavía no eres miembro? <br></br>
-                            <a href="#" className="text-success">Registrar ahora!
+                            <a href="#Registrar" className="text-success">Registrar ahora!
                             </a>
                         </div>
                         </form>

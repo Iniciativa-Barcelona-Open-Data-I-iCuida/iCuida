@@ -55,7 +55,6 @@ class Login extends Component {
                             </div>
                             <button type="submit"
                                     className="btn btn-lg btn-primary btn-block"
-                                    role="button" 
                                     aria-pressed="true">
                                 Entrar
                             </button>
