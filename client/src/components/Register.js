@@ -59,9 +59,9 @@ class Register extends Component {
                         <hr></hr>                    
                             <div className="form-group">
                             <label htmlFor="user_name">Nombre de Usuario</label>
-                            <div class="input-group">
-                            <span class="input-group-addon">
-                                <i class="fa fa-user"> </i> 
+                            <div className="input-group">
+                            <span className="input-group-addon">
+                                <i className="fa fa-user"> </i> 
                             </span>
                             <input type="user_name"
                                     className="form-control"
@@ -76,8 +76,8 @@ class Register extends Component {
                             <div className="form-group">
                                 <label htmlFor="email">Correo Electrónico</label>
                                 <div className="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-lock"> </i> 
+                                    <span className="input-group-addon">
+                                        <i className="fa fa-lock"> </i> 
                                     </span>
                                 <input type="email"
                                         className="form-control"
@@ -92,8 +92,8 @@ class Register extends Component {
                             <div className="form-group">
                                 <label htmlFor="password">Contraseña</label>
                                 <div className="input-group">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-lock"> </i> 
+                                    <span className="input-group-addon">
+                                        <i className="fa fa-lock"> </i> 
                                     </span>
                                 <input type="password"
                                        className="form-control"
@@ -104,20 +104,15 @@ class Register extends Component {
                                        onChange={this.onChange}/>
                                 </div>
                             </div>
-                            <div class="form-group">
+                            <div className="form-group">
                             <button type="submit"
                                     className="btn btn-lg btn-success btn-block login-btn">
                                 Registrar
                             </button>
                             </div>
-                            <a href="#OlvidarContraseño" 
+                            <a href="#Olvidarcontraseña" 
                                 className="pull-right text-success">Olvidaste la contraseña?
                             </a>
-                            <hr></hr> 
-                            <div className="hint-text small">¿Todavía no eres miembro? <br></br>
-                            <a href="#Registrar" className="text-success">Registrar ahora!
-                            </a>
-                        </div>
                         </form>
                     </div>
                 </div>

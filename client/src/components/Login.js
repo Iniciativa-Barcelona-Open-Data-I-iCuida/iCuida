@@ -45,7 +45,7 @@ class Login extends Component {
                                        onChange={this.onChange}/>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="password">Contraseña</label>
+                                <label htmlFor="password">Contraseña (Mínimo 8 caracteres)</label>
                                 <input type="password"
                                        className="form-control"
                                        name="password"
@@ -58,6 +58,10 @@ class Login extends Component {
                                     aria-pressed="true">
                                 Entrar
                             </button>
+                            <hr></hr> 
+                            <div className="hint-text small">¿Todavía no eres miembro? <br></br>
+                                <a href="#Registrar" className="text-success">Registrar ahora!</a>
+                            </div>
                         </form>
                     </div>
                 </div>

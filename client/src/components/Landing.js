@@ -22,99 +22,123 @@ export default class Landing extends Component {
             <div className="container-fluid mt-3"> 
                 <div className="card-group">                 
                 <div className="card1 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/derechos-laborales.jpg" alt="derechos-laborales" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Derechos Laborales</h3>
                     <p className="card-text">Box1:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button1" role="button">Derechos Laborales»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/derechos-laborales" role="button">Derechos Laborales»</a></p> 
                 </div>             
             </div>
                 <div className="card2 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/tramites-legales.jpg" alt="tramites-legales" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Tramites Legales</h3>
                     <p className="card-text">Box2:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button2" role="button">Tramites Legales»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/tramites-legales" role="button">Tramites Legales»</a></p> 
                 </div>             
             </div>
                 <div className="card3 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/seguridad-social.jpg" alt="seguridad-social" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Seguridad Social</h3>
                     <p className="card-text">Box3:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button3" role="button">Seguridad Social»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/seguridad-social" role="button">Seguridad Social»</a></p> 
                 </div>             
             </div>     
                 <div className="card4 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/extranjer%C3%ADa.jpg" alt="extranjer%C3%ADa" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Extranjería</h3>
                     <p className="card-text">Box4:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button4" role="button">Extranjería»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/extranjer%C3%ADa" role="button">Extranjería»</a></p> 
                 </div>             
             </div>
             <div className="card5 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/centros-de-suporte.jgp" alt="centros-de-suporte" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Centros de Suporte</h3>
                     <p className="card-text">Box5:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button5" role="button">Centros de Suporte»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/centros-de-suporte" role="button">Centros de Suporte»</a></p> 
                 </div>             
             </div> 
             <div className="card6 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img img/cuidado-de-dependientes.jpg" alt="cuidado-de-dependientes" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Cuidado de Dependientes</h3>
                     <p className="card-text">Box6:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button5" role="button">Cuidado de Dependientes»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/cuidado-de-dependientes" role="button">Cuidado de Dependientes»</a></p> 
                 </div>             
             </div> 
             <div className="card7 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/cuidado-de-mayores.jpg" alt="cuidado-de-mayores" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Cuidado de Mayores</h3>
                     <p className="card-text">Box7:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button5" role="button">Cuidado de Mayores»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/cuidado-de-mayores" role="button">Cuidado de Mayores»</a></p> 
                 </div>             
             </div> 
             <div className="card8 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/canguros.jpg" alt="canguros" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Canguros</h3>
                     <p className="card-text">Box8:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button5" role="button">Canguros»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/canguros" role="button">Canguros»</a></p> 
                 </div>             
             </div>  
             <div className="card9 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/consejos-de-limpieza.jpg" alt="consejos-de-limpieza" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Consejos de Limpieza</h3>
                     <p className="card-text">Box9:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button5" role="button">Consejos de Limpieza»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/consejos-de-limpieza" role="button">Consejos de Limpieza»</a></p> 
                 </div>             
             </div>
             <div className="card10 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/ayudas-pr%C3%A1cticas.jpg" alt="ayudas-pr%C3%A1cticas" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Ayudas Prácticas</h3>
                     <p className="card-text">Box10:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button5" role="button">Ayudas Prácticas»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/ayudas-pr%C3%A1cticas" role="button">Ayudas Prácticas»</a></p> 
                 </div>             
             </div>
             <div className="card11 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/recursos-de-barcelona.jpg" alt="recursos-de-barcelona" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Recursos de Barcelona</h3>
                     <p className="card-text">Box11:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button5" role="button">Recursos de Barcelona»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/recursos-de-barcelona" role="button">Recursos de Barcelona»</a></p> 
                 </div>             
             </div>
             <div className="card12 col-md-6 col-lg-4 col-xl-3">  
-                    {/*<img src="/" alt="img-derechos-laborales" className="img-thumbnail rounded-lg float-center"></img>*/}
+                    {/*<img src="/img/otros.jpg" alt="otros" 
+                        className="img-thumbnail rounded-lg float-center">
+                    </img>*/}
                 <div className="card-body">
                     <h3>Otros</h3>
                     <p className="card-text">Box12:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p><a className="btn btn-secondary" href="#Button5" role="button">Otros»</a></p> 
+                    <p><a className="btn btn-secondary" href="https://icuida.barcelona/categorias/otros" role="button">Otros»</a></p> 
                 </div>             
             </div>                        
                 <hr></hr>

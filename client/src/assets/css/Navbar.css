@@ -28,6 +28,7 @@ body{
 
 .bg-newcolor {
   background-color: #fe6e60;
+  color:#000000;
   }
 
  /*breadcrumbs*/ 
@@ -63,8 +64,14 @@ body{
     border-radius: none;
     width: 100%; 
   }
-  
-  /*MAIN*/
+
+  /*CHECK: COLOR CHANGE NAVBAR NOT WORKING*/
+  .a.navbar-brand,
+  .a-nav-link-active,
+  .a-nav-link,
+  .ul.navbar-navnavbar{
+    color: #000000;
+  }
   
   /*FOOTER*/
   .footer {
