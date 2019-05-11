@@ -4,8 +4,7 @@ import { register } from './UserFunctions';
 class Register extends Component {
 
         state = {
-            first_name: '',
-            last_name: '',
+            user_name: '',
             email: '',
             password: '',
 
