@@ -1,23 +1,3 @@
-@import url("https://use.typekit.net/ory5afa.css");
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-/*GENERAL*/
-html, body {
-    width: 100%;
-    min-height: 100%;
-    font-size: 32px;
-}
-
-body{
-    font-family: 'myriad-pro','Montserrat','sans-serif';
-    font-weight: 700;
-    font-style: normal;
-}
-
-::after, ::before {
-    box-sizing: border-box;
-}
-
 /*BUTTON*/
 .btn-primary {
     color: #fff;

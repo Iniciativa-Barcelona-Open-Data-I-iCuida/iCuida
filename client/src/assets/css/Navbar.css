@@ -1,22 +1,3 @@
-@import url("https://use.typekit.net/ory5afa.css");
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-/*GENERAL*/
-html, body {
-    width: 100%;
-    min-height: 100%;
-}
-
-body{
-    font-family: 'myriad-pro','Montserrat','sans-serif';
-    font-weight: 700;
-    font-style: normal;
-}
-
-::after, ::before {
-    box-sizing: border-box;
-}
-
 /*NAV BAR*/
 .fixed-top {
   position: fixed;
@@ -36,8 +17,8 @@ body{
     margin: 20px;
   }
 .navbar-dark .navbar-toggler {
-    color: #ffff;
-    border-color: #ffff;
+  color: #000000;
+  border-color: #000000;
 }
 
 .navbar-toggler {
@@ -49,20 +30,20 @@ body{
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #fe6e60;
-    padding: 1rem 1rem;
-    font-size: 16px;
-    padding-left: 15px;
-    padding-right: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fe6e60;
+  padding: 1rem 1rem;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
   }
 
-  .navbar-nav{
-    background-color: #6BDEFF;/*#eb9d96;*/
-    border-radius: none;
-    width: 100%; 
+.navbar-nav{
+  background-color: #6BDEFF;/*#eb9d96;*/
+  border-radius: none;
+  width: 100%; 
   }
 
   /*CHECK: COLOR CHANGE NAVBAR NOT WORKING*/
