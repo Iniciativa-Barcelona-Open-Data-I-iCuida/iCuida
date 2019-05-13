@@ -34,29 +34,34 @@ class Login extends Component {
                 <div className="row">
                     <div className="col-m-6 mt-5 mx-auto">
                         <form noValidate onSubmit={this.onSubmit}>
-                            <h1 className="h3 mb-3 font-weight-normal">Please sign in</h1>
+                            <h1 className="h3 mb-3 font-weight-normal">iCuida</h1>
                             <div className="form-group">
-                                <label htmlFor="email">Email Address</label>
+                                <label htmlFor="email">Correo Eléctronico</label>
                                 <input type="email"
                                        className="form-control"
                                        name="email"
-                                       placeholder="Enter Email"
+                                       placeholder="Entrar Correo"
                                        value={this.state.email}
                                        onChange={this.onChange}/>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="password">Password</label>
+                                <label htmlFor="password">Contraseña (Mínimo 8 caracteres)</label>
                                 <input type="password"
                                        className="form-control"
                                        name="password"
-                                       placeholder="Enter Password"
+                                       placeholder="Entrar Contraseña"
                                        value={this.state.password}
                                        onChange={this.onChange}/>
                             </div>
                             <button type="submit"
-                                    className="btn btn-lg btn-primary btn-block">
-                                Sign in
+                                    className="btn btn-lg btn-primary btn-block"
+                                    aria-pressed="true">
+                                Entrar
                             </button>
+                            <hr></hr> 
+                            <div className="hint-text small">¿Todavía no eres miembro? <br></br>
+                                <a href="#Registrar" className="text-success">Registrar ahora!</a>
+                            </div>
                         </form>
                     </div>
                 </div>
