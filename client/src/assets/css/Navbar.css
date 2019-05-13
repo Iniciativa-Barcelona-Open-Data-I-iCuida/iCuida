@@ -18,7 +18,11 @@
   }
 
 /*NAVBAR TEXT COLOR & SIZE*/
-.navbar-dark .navbar-brand,
+.navbar-dark .navbar-brand{
+  color: #000;
+  font-size: 24px;
+}
+
 .navbar-dark .li-nav-item,
 .navbar-dark .navbar-nav .active> .nav-link, 
 .navbar-dark .navbar-nav .nav-link.active, 

@@ -28,18 +28,17 @@ class Navbar extends Component{
                     <Link to="/profile" className="nav-link">Usuario</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="navlink" 
+                    <Link to="navlink"
                     onClick={this.logOut.bind(this)} className="nav-link">Logout
-                    </a>
+                    </Link>
                 </li>
             </ul>
             )
         
         return(
             <React.Fragment>
-                <div className="bs-example"> 
                 <nav className="navbar navbar-expand-md navbar-dark bg-newcolor">
-                    <a href="#iCuida" className="navbar-brand">iCuida</a>
+                    <Link to="/" className="navbar-brand">iCuida</Link>
                     <button className="navbar-toggler" 
                     type="button"
                     data-toggle="collapse"
@@ -51,60 +50,59 @@ class Navbar extends Component{
                     </button>
                     <div className="collapse navbar-collapse justify-content-md-center"id="navbarCollapse">
                         <ul className="navbar-nav">
-                        <li className="nav-breadcrumb-item dropdown"><a href="#https://icuida.barcelona/categorias" 
-                            className="nav-link active dropdown-toggle"data-toggle="dropdown">Categorias</a>
+                        <li className="nav-breadcrumb-item dropdown"><Link to="#"
+                            className="nav-link active dropdown-toggle"data-toggle="dropdown">Categorias</Link>
                             <div className="dropdown-menu">
-                                <a href="https://icuida.barcelona/categorias/derechos-laborales" 
+                                <Link to="/derechos-laborales"
                                     className="dropdown-item">Derechos Laborales
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/tramites-legales" 
+                                </Link>
+                                <Link to="/tramites-legales"
                                     className="dropdown-item">Tramites Legales
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/seguridad-social" 
+                                </Link>
+                                <Link to="/seguridad-social"
                                     className="dropdown-item">Seguridad Social
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/extranjería" 
+                                </Link>
+                                <Link to="/extranjería"
                                     className="dropdown-item">Extranjería
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/centros-de-suporte" 
+                                </Link>
+                                <Link to="/centros-de-suporte"
                                     className="dropdown-item">Centros de Suporte
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/cuidado-de-dependientes" 
+                                </Link>
+                                <Link to="/cuidado-de-dependientes"
                                     className="dropdown-item">Cuidado de Dependientes
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/cuidado-de-mayores" 
+                                </Link>
+                                <Link to="/cuidado-de-mayores"
                                     className="dropdown-item">Cuidado de Mayores
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/canguros" 
+                                </Link>
+                                <Link to="/canguros"
                                     className="dropdown-item">Canguros
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/consejos-de-limpieza" 
+                                </Link>
+                                <Link to="/consejos-de-limpieza"
                                     className="dropdown-item">Consejos de Limpieza
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/ayudas-prácticas" 
+                                </Link>
+                                <Link to="/ayudas-prácticas"
                                     className="dropdown-item">Ayudas Prácticas
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/recursos-de-barcelona" 
+                                </Link>
+                                <Link to="/recursos-de-barcelona"
                                     className="dropdown-item">Recursos de Barcelona
-                                </a>
-                                <a href="https://icuida.barcelona/categorias/otros" 
+                                </Link>
+                                <Link to="/otros"
                                     className="dropdown-item">Otros
-                                </a>
+                                </Link>
                             </div>
                         </li>
                         <li className="nav-breadcrumb-item">
-                            <a href="#https://icuida.barcelona/preguntas" 
-                                className="nav-link active">Preguntas</a>
+                            <Link to="/preguntas"
+                                className="nav-link active">Preguntas</Link>
                         </li>
                         <li className="nav-breadcrumb-item">
-                            <a href="#https://icuida.barcelona/respuestas" 
-                                className="nav-link active">Respuestas</a>
+                            <Link to="/respuestas"
+                                className="nav-link active">Respuestas</Link>
                         </li>
                         {localStorage.usertoken ? userLink : loginRegLink}
                         </ul>
                     </div>
                 </nav>
-                </div>
             </React.Fragment>
             )
         }
