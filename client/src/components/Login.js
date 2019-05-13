@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import { login } from './UserFunctions';
+import { Link } from 'react-router-dom';
 
 class Login extends Component {
 
@@ -60,7 +61,7 @@ class Login extends Component {
                             </button>
                             <hr></hr> 
                             <div className="hint-text small">¿Todavía no eres miembro? <br></br>
-                                <a href="#Registrar" className="text-success">Registrar ahora!</a>
+                                <Link to="/register" className="text-success">Registrar ahora!</Link>
                             </div>
                         </form>
                     </div>
