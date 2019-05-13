@@ -1,14 +1,14 @@
 const express = require("express");
 const questions = express.Router();
 const cors = require('cors');
-const sequelize = require('sequelize');
 const Question = require("../models/Questions");
 questions.use(cors());
 
-questions.post('/question', (req, res) => {
+questions.post('/', (req, res) => {
     const today = new Date();
     const userQuestion = {
-        question: req.body.question,
+        title: req.body.title,
+        description: req.body.description,
         created_at: today,
 
     }
@@ -45,7 +45,8 @@ questions.get('/:id', (req, res) => {
         })
         .catch(err => {
             res.send(err)
-        })
+        });
+
 });
 
 module.exports = questions;

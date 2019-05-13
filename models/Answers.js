@@ -2,19 +2,20 @@ const Sequelize = require('sequelize');
 const db = require('../database/db');
 
 module.exports = db.sequelize.define(
-    'questions',
+    'answers',
     {
         id: {
             type: Sequelize.INTEGER,
             primaryKey: true,
             autoIncrement: true,
         },
-        title: {
+        question_id: {
+            type: Sequelize.INTEGER,
+        },
+        answer: {
             type: Sequelize.STRING
         },
-        description: {
-            type: Sequelize.STRING
-        },
+
         created_at: {
             type: Sequelize.DATE,
             defaultValue: Sequelize.NOW

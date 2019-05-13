@@ -29,8 +29,9 @@ icuida
     ├── logo.svg
     └── serviceWorker.js
 ```
+
 ## The current project structure:
- ![](image.png) 
+![sitemap structure icuida](https://github.com/dianavile/iCuida/blob/Landingpage/sitemap-structure-icuida.png)
 
 ## Available Scripts
 In the project directory, you can run:
@@ -62,4 +63,3 @@ icuida is open source software [licensed as MIT](https://github.com/dianavile/iC
 - [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 - [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
 - [Troubleshoot`npm run build`fails to minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
