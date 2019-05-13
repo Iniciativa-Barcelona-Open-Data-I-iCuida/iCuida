@@ -16,10 +16,17 @@
   .bs-example{
     margin: 20px;
   }
-.navbar-dark .navbar-toggler {
-  color: #000000;
-  background-color: #000000;
-  border-color: #000000;
+
+/*NAVBAR TEXT COLOR & SIZE*/
+.navbar-dark .navbar-brand,
+.navbar-dark .li-nav-item,
+.navbar-dark .navbar-nav .active> .nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link {
+  color: #000;
+  background-color: #6BDEFF;
+  font-size: 24px;
 }
 
 .navbar-toggler {
@@ -45,18 +52,6 @@
   background-color: #6BDEFF;/*#eb9d96;*/
   border-radius: none;
   width: 100%; 
-  }
-
-  /*CHECK: COLOR CHANGE NAVBAR NOT WORKING*/
-  a.navbar-brand, 
-  a.nav-link.active.dropdown-toggle,
-  a.nav-link.active,
-  a.nav-link.active,
-  a.nav-link,
-  a.nav-link,
-  a, a, a {
-    color: #000000;
-    font-size: 16px;
   }
 
   /*FOOTER*/

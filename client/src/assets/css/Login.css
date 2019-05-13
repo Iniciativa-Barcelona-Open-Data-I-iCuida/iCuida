@@ -5,6 +5,12 @@
     border-color: #6BDEFF;
 }
 
+/* login */
+.login{ 
+        width: 60%; 
+        margin: auto;
+    }
+
 /* Add media queries */
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -14,6 +20,13 @@
         width: 100%;
         } 
 } 
+
+@media only screen and (max-width:767px){
+    .login{ 
+        width: 100%; 
+        margin: auto;
+    }
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {

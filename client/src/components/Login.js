@@ -46,7 +46,8 @@ class Login extends Component {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="password">Contraseña (Mínimo 8 caracteres)</label>
-                                <input type="password"
+                                <input type="password" 
+                                       autoComplete="new-password"
                                        className="form-control"
                                        name="password"
                                        placeholder="Entrar Contraseña"

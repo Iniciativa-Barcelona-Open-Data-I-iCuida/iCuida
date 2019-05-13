@@ -80,7 +80,7 @@ class Register extends Component {
                                         <i className="fa fa-lock"> </i> 
                                     </span>
                                 <input type="email"
-                                        className="form-control"
+                                       className="form-control"
                                        name="email"
                                        placeholder="Entrar Correo"
                                        required="required"
@@ -96,6 +96,7 @@ class Register extends Component {
                                         <i className="fa fa-lock"> </i> 
                                     </span>
                                 <input type="password"
+                                       autoComplete="current-password"
                                        className="form-control"
                                        name="password"
                                        placeholder="Entrar Contraseña"

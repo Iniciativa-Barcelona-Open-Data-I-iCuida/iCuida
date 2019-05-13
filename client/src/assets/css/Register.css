@@ -45,3 +45,10 @@
 .btn-btn-lg-btn-success-btn-block-login-btn {
     background-color: #6BDEFF;
 }
+
+@media only screen and (max-width:767px){
+    .registrar{ 
+        width: 100%; 
+        margin: auto;
+    }
+}
