@@ -9,6 +9,8 @@ import Register from './components/Register'
 import Profile from './components/Profile'
 import Questions from './components/Questions'
 import Question from './components/Question'
+//import Answers from './components/Anwsers'
+//import Answer from './components/Answer'
 //import Error from './components/Error'
 
 function App() {
@@ -23,6 +25,9 @@ function App() {
             <Route exact path="/profile" component={Profile}/>
             <Route exact path="/questions" component={Questions}/>
             <Route exact path="/questions/:id" component={Question}/>
+            {/*<Route exact path="/answers"  component={Answer} />*/} 
+            {/*<Route exact path="/answer/:qid"  component={Answer} />*/}
+            {/*<Route component={Error} />*/} 
         </div>
       </div>
     </Router>
