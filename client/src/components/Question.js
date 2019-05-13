@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { question, } from './QuestionFunctions';
 import { submitAnswer, getAnswers } from './AnswerFunctions';
+import {getComments} from './CommentFunctions';
 import {Link} from "react-router-dom";
 
 export default class Question extends Component {
@@ -8,7 +9,8 @@ export default class Question extends Component {
     state = {
         questionData: null,
         answers: null,
-        answer: ''
+        answer: '',
+        comments: null,
     }
 
     componentDidMount() {
@@ -28,6 +30,14 @@ export default class Question extends Component {
         getAnswers(this.getUrl())
             .then(res => {
                 this.setState({answers: res})
+            })
+            .catch(err => {
+                console.log(err)
+            })
+
+        getComments(this.getUrl())
+            .then(res => {
+                this.setState({comments: res})
             })
             .catch(err => {
                 console.log(err)
@@ -61,9 +71,11 @@ export default class Question extends Component {
         );
     }
 
-    renderAnswers(objectData) {
+    renderAnswers =(objectData) => {
         return objectData.map(answer => {
+
             return (
+                <React.Fragment>
                 <div>
                     <div className="card">
                         <div className="card-body">
@@ -71,7 +83,22 @@ export default class Question extends Component {
                         </div>
                     </div>
                 </div>
+                <div>
+                    {
+                        this.state.comments &&
+                            this.state.comments.data.map(comment => {
+                                const questionId = this.getUrl();
+                                const answerId = answer.id;
+                                if (questionId === comment.question_id && answerId === comment.answer_id) {
+                                    return (
+                                        <p>{comment.comment}</p>
+                                    )
+                                }
 
+                            })
+                    }
+                </div>
+                </React.Fragment>
 
             );
         }) ;
