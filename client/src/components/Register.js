@@ -41,6 +41,7 @@ class Register extends Component {
                             <i className="fa fa-lock"> </i> 
                             </span>
                             <input type="password" 
+                                autoComplete="password"
                                 className="form-control" 
                                 name="password" 
                                 placeholder="Password" 
@@ -64,6 +65,7 @@ class Register extends Component {
                                 <i className="fa fa-user"> </i> 
                             </span>
                             <input type="user_name"
+                                    autoComplete="username"
                                     className="form-control"
                                     name="user_name"
                                     placeholder="Entrar Nombre"
@@ -80,6 +82,7 @@ class Register extends Component {
                                         <i className="fa fa-lock"> </i> 
                                     </span>
                                 <input type="email"
+                                       autoComplete="email"
                                        className="form-control"
                                        name="email"
                                        placeholder="Entrar Correo"
@@ -102,7 +105,8 @@ class Register extends Component {
                                        placeholder="Entrar Contraseña"
                                        required="required"
                                        value={this.state.password}
-                                       onChange={this.onChange}/>
+                                       onChange={this.onChange}
+                                />
                                 </div>
                             </div>
                             <div className="form-group">

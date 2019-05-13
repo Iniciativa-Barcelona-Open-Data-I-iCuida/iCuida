@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {questions, askQuestion} from "./QuestionFunctions";
-import { Router, Route, Link} from 'react-router-dom';
-import {login} from "./UserFunctions";
+import { /*Router,*/ Route, Link} from 'react-router-dom';
+import {/*login*/} from "./UserFunctions";
 export default class Questions extends Component {
 
     state = {
@@ -87,8 +87,8 @@ export default class Questions extends Component {
                                   name="description"
                                   value={this.state.description}
                                   onChange={this.onChange}
-                                  rows="3">
-
+                                  rows="3"
+                        >
                         </textarea>
                     </div>
                     <button className="btn btn-primary"type="submit">Submit</button>

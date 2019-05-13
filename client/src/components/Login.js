@@ -38,11 +38,13 @@ class Login extends Component {
                             <div className="form-group">
                                 <label htmlFor="email">Correo Eléctronico</label>
                                 <input type="email"
+                                       autoComplete="email"
                                        className="form-control"
                                        name="email"
                                        placeholder="Entrar Correo"
                                        value={this.state.email}
-                                       onChange={this.onChange}/>
+                                       onChange={this.onChange}
+                                />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="password">Contraseña (Mínimo 8 caracteres)</label>
