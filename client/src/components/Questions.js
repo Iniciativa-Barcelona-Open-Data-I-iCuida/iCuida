@@ -64,35 +64,48 @@ export default class Questions extends Component {
     render() {
         return(
             <React.Fragment>
+                    <div className="search-form">
+                        <nav>
+                            <form className="form-inline ml-auto">
+                                <input type="text"
+                                       className="form-control w-100 rounded-pill"
+                                       placeholder="Busca"
+                                       id="searchInput">
+                                </input>
+                            </form>
+                        </nav>
+                    </div>
             <div>
                 {
                     this.state.questionsData &&
                     this.renderQuestions( this.state.questionsData.data)
                 }
             </div>
-                <form noValidate onSubmit={this.onSubmit}>
-                    <div className="form-group">
-                        <label htmlFor="exampleFormControlTextarea1">Question</label>
-                        <input className="form-control form-control-lg"
-                               name="title"
-                               type="text"
-                               value={this.state.title}
-                               onChange={this.onChange}
-                               placeholder="Question"/>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="exampleFormControlTextarea1">Example textarea</label>
-                        <textarea className="form-control"
-                                  id="exampleFormControlTextarea1"
-                                  name="description"
-                                  value={this.state.description}
-                                  onChange={this.onChange}
-                                  rows="3">
+                <div class="p-5">
+                    <form className="card p-2" noValidate onSubmit={this.onSubmit}>
+                        <div className="form-group">
+                            <label htmlFor="exampleFormControlTextarea1">Question</label>
+                            <input className="form-control form-control-lg rounded-pill"
+                                   name="title"
+                                   type="text"
+                                   value={this.state.title}
+                                   onChange={this.onChange}
+                                   placeholder="Question"/>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="exampleFormControlTextarea1">Example textarea</label>
+                            <textarea className="form-control "
+                                      id="exampleFormControlTextarea1"
+                                      name="description"
+                                      value={this.state.description}
+                                      onChange={this.onChange}
+                                      rows="3">
 
-                        </textarea>
-                    </div>
-                    <button className="btn btn-primary"type="submit">Submit</button>
-                </form>
+                            </textarea>
+                        </div>
+                        <button className="btn btn-primary rounded-pill" type="submit">Submit</button>
+                    </form>
+                </div>
             </React.Fragment>
         )
     }
