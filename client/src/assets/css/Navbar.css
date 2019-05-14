@@ -47,16 +47,22 @@
   text-align: center;
   color: #fe6e60;
   padding: 1rem 1rem;
-  font-size: 16px;
+  font-size: 24px;
   padding-left: 15px;
   padding-right: 15px;
   }
 
 .navbar-nav{
-  background-color: #6BDEFF;/*#eb9d96;*/
+  color: #000;
+  background-color: #6BDEFF;
+  font-size: 24px;
   border-radius: none;
   width: 100%; 
   }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color:#000;
+}
 
   /*FOOTER*/
   .footer {

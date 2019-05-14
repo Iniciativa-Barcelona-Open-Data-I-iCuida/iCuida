@@ -1,25 +1,30 @@
 /*SEARCHFORM*/
-.form-inline-ml-auto{
-    display: inline-block;
-    width: 100%;
-    align-items: center;
-    vertical-align: middle;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 4rem;
-    font-weight: 400;
-    line-height: 1.5;
-    background-clip: padding-box;
-    border: 1px solid #6BDEFF;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
 }
 
 .form-control-mr-sm-2 {
     width: 100%;
     box-shadow: none;		
     font-weight: normal;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .form-control:focus {

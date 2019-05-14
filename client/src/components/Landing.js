@@ -10,7 +10,9 @@ export default class Landing extends Component {
             <div className="container-fluid">
                     <div className="search-form">
                         <nav>
-                            <form className="form-inline ml-auto">
+                            <form className="form-group has-search ml-auto">
+                            <span className="fa fa-search form-control-feedback">
+                            </span>
                             <input type="text" 
                                    className="form-control mr-sm-2" 
                                    placeholder="Busca" 
