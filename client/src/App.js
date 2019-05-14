@@ -19,16 +19,15 @@ function App() {
       <div className="App">
         <Navbar/>
         <Route exact path="/" component={Landing}/>
-        <div className="container">
-            <Route exact path="/register" component={Register}/>
-            <Route exact path="/login" component={Login}/>
-            <Route exact path="/profile" component={Profile}/>
-            <Route exact path="/questions" component={Questions}/>
-            <Route exact path="/questions/:id" component={Question}/>
-            {/*<Route exact path="/answers"  component={Answer} />*/} 
-            {/*<Route exact path="/answer/:qid"  component={Answer} />*/}
-            {/*<Route component={Error} />*/} 
-        </div>
+          <div className="icuida icuida-blue p-4">
+            <div className=" icuida icuida-blue container">
+                <Route exact path="/register" component={Register}/>
+                <Route exact path="/login" component={Login}/>
+                <Route exact path="/perfil" component={Profile}/>
+                <Route exact path="/preguntas" component={Questions}/>
+                <Route exact path="/preguntas/:id" component={Question}/>
+            </div>
+          </div>
       </div>
     </Router>
   );
