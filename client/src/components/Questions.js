@@ -84,22 +84,23 @@ export default class Questions extends Component {
                 <div class="p-5">
                     <form className="card p-2" noValidate onSubmit={this.onSubmit}>
                         <div className="form-group">
-                            <label htmlFor="exampleFormControlTextarea1">Question</label>
+                            <label htmlFor="exampleFormControlTextarea1">pregunta</label>
                             <input className="form-control form-control-lg rounded-pill"
                                    name="title"
                                    type="text"
                                    value={this.state.title}
                                    onChange={this.onChange}
-                                   placeholder="Question"/>
+                                   placeholder="Pregunta"/>
                         </div>
                         <div className="form-group">
-                            <label htmlFor="exampleFormControlTextarea1">Example textarea</label>
+                            <label htmlFor="exampleFormControlTextarea1">Explica tu pregunta</label>
                             <textarea className="form-control "
                                       id="exampleFormControlTextarea1"
                                       name="description"
                                       value={this.state.description}
                                       onChange={this.onChange}
-                                      rows="3">
+                                      rows="3"
+                                      placeholder="Explica tu pregunta">
 
                             </textarea>
                         </div>

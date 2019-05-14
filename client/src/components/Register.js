@@ -32,7 +32,7 @@ class Register extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="icuida-blue container">
                 <div className="row">
                 {/*  EMAIL IS REQUIRED  
                 <div className="form-group">   
