@@ -1,6 +1,6 @@
 import React, { /*Component*/ } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
+import './App.css'
 //import Loading from './components/Loading'
 import Navbar from './components/Navbar'
 import Landing from './components/Landing'
@@ -17,13 +17,15 @@ function App() {
       <div className="App">
         <Navbar/>
         <Route exact path="/" component={Landing}/>
-        <div className="container">
-            <Route exact path="/register" component={Register}/>
-            <Route exact path="/login" component={Login}/>
-            <Route exact path="/profile" component={Profile}/>
-            <Route exact path="/questions" component={Questions}/>
-            <Route exact path="/questions/:id" component={Question}/>
-        </div>
+
+            <div className="container">
+                <Route exact path="/register" component={Register}/>
+                <Route exact path="/login" component={Login}/>
+                <Route exact path="/perfil" component={Profile}/>
+                <Route exact path="/preguntas" component={Questions}/>
+                <Route exact path="/preguntas/:id" component={Question}/>
+            </div>
+
       </div>
     </Router>
   );
