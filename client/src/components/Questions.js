@@ -36,7 +36,8 @@ export default class Questions extends Component {
 
         askQuestion(questionData).then(res => {
             if(res) {
-                this.props.history.push('/profile')
+                this.props.history.push('/preguntas/'+res.data.id)
+
             }
         })
     }
@@ -46,16 +47,15 @@ export default class Questions extends Component {
             return objectData.map(val => {
                return (
                    <Route>
-                        <div className="card">
-                            <div className="card-header">Something here</div>
-                            <div className="card-body">
-                                <h5 className="card-title">{val.title}</h5>
-                                <p className="card-text">{val.description}</p>
-                                <Link to={"./questions/"+val.id} className="btn btn-primary">Open</Link>
+                       <Link to={"./preguntas/"+val.id}>
+                            <div className="card mt-3 mb-3">
+                                <div className="card-body">
+                                    <h5 className="card-title">{val.title}</h5>
+                                    <p className="card-text ml-2 mr-2">{val.description}</p>
 
+                                </div>
                             </div>
-                        </div>
-
+                       </Link>
                    </Route>
                )
             })
