@@ -19,7 +19,6 @@ function App() {
       <div className="App">
         <Navbar/>
         <Route exact path="/" component={Landing}/>
-<<<<<<< HEAD
         <div className="container">
             <Route exact path="/register" component={Register}/>
             <Route exact path="/login" component={Login}/>
@@ -30,17 +29,6 @@ function App() {
             {/*<Route exact path="/answer/:qid"  component={Answer} />*/}
             {/*<Route component={Error} />*/} 
         </div>
-=======
-
-            <div className="container">
-                <Route exact path="/register" component={Register}/>
-                <Route exact path="/login" component={Login}/>
-                <Route exact path="/perfil" component={Profile}/>
-                <Route exact path="/preguntas" component={Questions}/>
-                <Route exact path="/preguntas/:id" component={Question}/>
-            </div>
-
->>>>>>> 2912f73a0661d4d05a7059091afe928f24a08608
       </div>
     </Router>
   );
