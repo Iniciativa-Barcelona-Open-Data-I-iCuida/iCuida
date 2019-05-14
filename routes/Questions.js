@@ -15,7 +15,8 @@ questions.post('/', (req, res) => {
 
                 Question.create(userQuestion)
                     .then(question => {
-                        res.send(' Question sent');
+                        res.send(question);
+
                     })
                     .catch(err => {
                         res.send('error: ' + err )

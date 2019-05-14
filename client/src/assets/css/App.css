@@ -13,13 +13,20 @@
 }
 
 /*GENERAL*/
-html, body {
+html, body,
+#root, .App {
   width: 100%;
-  min-height: 100%;
+  height: 100%;
 }
 
-body{
-  font-family: 'myriad-pro','Montserrat','sans-serif';
-  font-weight: 700;
-  font-style: normal;
+.App {
+}
+
+.icuida-blue {
+  background-color: #6BDEFF !important;
+}
+
+.icuida {
+  overflow: hidden;
+  height: 100%;
 }
