@@ -151,9 +151,9 @@ export default class Landing extends Component {
             <section className="footer-container">
                 <p>© iCuida 2019</p>
                 <ul>
-                    <li><Link to="https://icuida.barcelona/legal" id="" rel="nofollow">Legal &amp; Privacy</Link></li>
-                    <li><Link to="https://icuida.barcelona/terms&conditions" id="" rel="nofollow">Terms &amp; Conditions</Link></li>
-                    <li><Link to="https://icuida.barcelona/sitemap" id="" rel="nofollow">Sitemap</Link></li>
+                    <li ><Link to="/legal" id="" rel="nofollow">Legal &amp; Privacy</Link></li>
+                    <li><Link to="/terms&conditions" id="" rel="nofollow">Terms &amp; Conditions</Link></li>
+                    <li><Link to="/sitemap" id="" rel="nofollow">Sitemap</Link></li>
                 </ul>
             </section>
         </React.Fragment>   
