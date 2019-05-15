@@ -20,7 +20,7 @@ export default class Question extends Component {
     dataRequest = () => {
         question(this.getUrl())
             .then(res => {
-                this.setState({questionData: res})
+                this.setState({questionData: res.data})
             })
             .catch(err => {
                 console.log(err)
@@ -29,7 +29,7 @@ export default class Question extends Component {
 
         getAnswers(this.getUrl())
             .then(res => {
-                this.setState({answers: res})
+                this.setState({answers: res.data})
             })
             .catch(err => {
                 console.log(err)
@@ -37,7 +37,7 @@ export default class Question extends Component {
 
         getComments(this.getUrl())
             .then(res => {
-                this.setState({comments: res})
+                this.setState({comments: res.data})
             })
             .catch(err => {
                 console.log(err)
@@ -64,6 +64,15 @@ export default class Question extends Component {
                     <div className="card-body">
                         <h5 className="card-title">{objectData.title}</h5>
                         <p className="card-text">{objectData.description}</p>
+                        <div className="mt-5">
+                            <span className="badge badge-pill badge-primary">Derechos Laborales</span>
+                            <span className="badge badge-pill badge-primary">Tramites Legals</span>
+                            <span className="badge badge-pill badge-primary">Seguridad Social</span>
+                            <span className="badge badge-pill badge-primary">Extranjeria</span>
+                            <span className="badge badge-pill badge-primary">Centros de soporte</span>
+                            <span className="badge badge-pill badge-primary">Cuidado de dependientes</span>
+                            <span className="badge badge-pill badge-primary">Derechos Laborales</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,7 +96,7 @@ export default class Question extends Component {
                 <div>
                     {
                         this.state.comments &&
-                            this.state.comments.data.map(comment => {
+                            this.state.comments.map(comment => {
                                 const questionId = this.getUrl();
                                 const answerId = answer.id;
                                 if (questionId === comment.question_id && answerId === comment.answer_id) {
@@ -135,14 +144,14 @@ export default class Question extends Component {
                 <h2>Question</h2>
                 {
                     this.state.questionData &&
-                    this.renderQuestion( this.state.questionData.data)
+                    this.renderQuestion( this.state.questionData)
                 }
             </div>
                 <div>
                     <h2>Answer</h2>
                     {
                         this.state.answers &&
-                        this.renderAnswers( this.state.answers.data)
+                        this.renderAnswers( this.state.answers)
                     }
                 </div>
                 <form noValidate onSubmit={this.onSubmit}>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {questions, askQuestion} from "./QuestionFunctions";
 import { /*Router,*/ Route, Link} from 'react-router-dom';
 import {/*login*/} from "./UserFunctions";
+import { Router, Route, Link} from 'react-router-dom';
 export default class Questions extends Component {
 
     state = {
@@ -10,16 +11,20 @@ export default class Questions extends Component {
         description: '',
     }
 
-    componentDidMount() {
+    componentWillMount() {
 
+
+        this.getData();
+    }
+
+    getData = () => {
         questions()
             .then(res => {
-                this.setState({questionsData: res})
+                this.setState({questionsData: res.data})
             })
             .catch(err => {
                 console.log(err)
             })
-
     }
 
     onChange = (e) => {
@@ -43,16 +48,14 @@ export default class Questions extends Component {
     }
 
     renderQuestions(objectData) {
-
             return objectData.map(val => {
                return (
-                   <Route>
+                   <Route key={val.title}>
                        <Link to={"./preguntas/"+val.id}>
                             <div className="card mt-3 mb-3">
                                 <div className="card-body">
                                     <h5 className="card-title">{val.title}</h5>
                                     <p className="card-text ml-2 mr-2">{val.description}</p>
-
                                 </div>
                             </div>
                        </Link>
@@ -64,6 +67,7 @@ export default class Questions extends Component {
     render() {
         return(
             <React.Fragment>
+                
                     <div className="search-form">
                         <nav>
                             <form className="form-inline ml-auto">
@@ -78,7 +82,7 @@ export default class Questions extends Component {
             <div>
                 {
                     this.state.questionsData &&
-                    this.renderQuestions( this.state.questionsData.data)
+                        this.renderQuestions(this.state.questionsData)
                 }
             </div>
                 <form noValidate onSubmit={this.onSubmit}>
@@ -105,29 +109,32 @@ export default class Questions extends Component {
                     <button className="btn btn-primary"type="submit">Submit</button>
                 </form>
                 <div class="p-5">
+                <div className="p-5">
                     <form className="card p-2" noValidate onSubmit={this.onSubmit}>
                         <div className="form-group">
-                            <label htmlFor="exampleFormControlTextarea1">Question</label>
+                            <label htmlFor="exampleFormControlTextarea1">pregunta</label>
                             <input className="form-control form-control-lg rounded-pill"
                                    name="title"
                                    type="text"
                                    value={this.state.title}
                                    onChange={this.onChange}
-                                   placeholder="Question"/>
+                                   placeholder="Pregunta"/>
                         </div>
                         <div className="form-group">
-                            <label htmlFor="exampleFormControlTextarea1">Example textarea</label>
+                            <label htmlFor="exampleFormControlTextarea1">Explica tu pregunta</label>
                             <textarea className="form-control "
                                       id="exampleFormControlTextarea1"
                                       name="description"
                                       value={this.state.description}
                                       onChange={this.onChange}
-                                      rows="3">
+                                      rows="3"
+                                      placeholder="Explica tupregunta">
 
                             </textarea>
                         </div>
                         <button className="btn btn-primary rounded-pill" type="submit">Submit</button>
                     </form>
+                </div>
                 </div>
             </React.Fragment>
         )

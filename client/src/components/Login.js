@@ -31,7 +31,7 @@ class Login extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="icuida-blue container">
                 <div className="row">
                     <div className="col-m-6 mt-5 mx-auto">
                         <form noValidate onSubmit={this.onSubmit}>
