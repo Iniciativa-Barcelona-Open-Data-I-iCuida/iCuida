@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {questions, askQuestion} from "./QuestionFunctions";
 import { Router, Route, Link} from 'react-router-dom';
-import {login} from "./UserFunctions";
 export default class Questions extends Component {
 
     state = {
@@ -10,16 +9,20 @@ export default class Questions extends Component {
         description: '',
     }
 
-    componentDidMount() {
+    componentWillMount() {
 
+
+        this.getData();
+    }
+
+    getData = () => {
         questions()
             .then(res => {
-                this.setState({questionsData: res})
+                this.setState({questionsData: res.data})
             })
             .catch(err => {
                 console.log(err)
             })
-
     }
 
     onChange = (e) => {
@@ -43,16 +46,14 @@ export default class Questions extends Component {
     }
 
     renderQuestions(objectData) {
-
             return objectData.map(val => {
                return (
-                   <Route>
+                   <Route key={val.title}>
                        <Link to={"./preguntas/"+val.id}>
                             <div className="card mt-3 mb-3">
                                 <div className="card-body">
                                     <h5 className="card-title">{val.title}</h5>
                                     <p className="card-text ml-2 mr-2">{val.description}</p>
-
                                 </div>
                             </div>
                        </Link>
@@ -78,10 +79,10 @@ export default class Questions extends Component {
             <div>
                 {
                     this.state.questionsData &&
-                    this.renderQuestions( this.state.questionsData.data)
+                        this.renderQuestions(this.state.questionsData)
                 }
             </div>
-                <div class="p-5">
+                <div className="p-5">
                     <form className="card p-2" noValidate onSubmit={this.onSubmit}>
                         <div className="form-group">
                             <label htmlFor="exampleFormControlTextarea1">pregunta</label>
@@ -100,7 +101,7 @@ export default class Questions extends Component {
                                       value={this.state.description}
                                       onChange={this.onChange}
                                       rows="3"
-                                      placeholder="Explica tu pregunta">
+                                      placeholder="Explica tupregunta">
 
                             </textarea>
                         </div>

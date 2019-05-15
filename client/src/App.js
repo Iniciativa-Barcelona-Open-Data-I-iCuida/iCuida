@@ -1,5 +1,5 @@
-import React, { /*Component*/ } from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switc } from "react-router-dom";
 import './App.css'
 //import Loading from './components/Loading'
 import Navbar from './components/Navbar'
@@ -11,24 +11,29 @@ import Questions from './components/Questions'
 import Question from './components/Question'
 //import Error from './components/Error'
 
-function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Navbar/>
-        <Route exact path="/" component={Landing}/>
-          <div className="icuida icuida-blue p-4">
-            <div className=" icuida icuida-blue container">
-                <Route exact path="/register" component={Register}/>
-                <Route exact path="/login" component={Login}/>
-                <Route exact path="/perfil" component={Profile}/>
-                <Route exact path="/preguntas" component={Questions}/>
-                <Route exact path="/preguntas/:id" component={Question}/>
-            </div>
-          </div>
-      </div>
-    </Router>
-  );
+class App extends Component {
+
+
+
+    render() {
+        return (
+            <Router>
+                <div className="App icuida icuida-blue">
+                    <Navbar/>
+                    <Route exact path="/" component={Landing}/>
+                    <div className="p-4">
+                        <div className="icuida icuida-blue container">
+                            <Route exact path="/register" component={Register}/>
+                            <Route exact path="/login" component={Login}/>
+                            <Route exact path="/perfil" component={Profile}/>
+                            <Route exact path="/preguntas" component={Questions}/>
+                            <Route exact path="/preguntas/:id" component={Question}/>
+                        </div>
+                    </div>
+                </div>
+            </Router>
+        );
+    }
 }
 
 export default App;
