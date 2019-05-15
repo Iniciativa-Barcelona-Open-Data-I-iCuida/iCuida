@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import {questions, askQuestion} from "./QuestionFunctions";
-import { /*Router,*/ Route, Link} from 'react-router-dom';
-import {/*login*/} from "./UserFunctions";
 import { Router, Route, Link} from 'react-router-dom';
+import {/*login*/} from "./UserFunctions";
 export default class Questions extends Component {
 
     state = {
