@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { question, } from './QuestionFunctions';
 import { submitAnswer, getAnswers } from './AnswerFunctions';
 import {getComments} from './CommentFunctions';
-import {Link} from "react-router-dom";
+import  tagsData from '../assets/tagsData'
+import '../assets/css/Login.css'
 
 export default class Question extends Component {
 
@@ -11,6 +12,7 @@ export default class Question extends Component {
         answers: null,
         answer: '',
         comments: null,
+        categories: ["derechos-laborales", "tramites-legales", "seguridad-social", "recursos-barcelona"]
     }
 
     componentDidMount() {
@@ -65,13 +67,13 @@ export default class Question extends Component {
                         <h5 className="card-title">{objectData.title}</h5>
                         <p className="card-text">{objectData.description}</p>
                         <div className="mt-5">
-                            <span className="badge badge-pill badge-primary">Derechos Laborales</span>
-                            <span className="badge badge-pill badge-primary">Tramites Legals</span>
-                            <span className="badge badge-pill badge-primary">Seguridad Social</span>
-                            <span className="badge badge-pill badge-primary">Extranjeria</span>
-                            <span className="badge badge-pill badge-primary">Centros de soporte</span>
-                            <span className="badge badge-pill badge-primary">Cuidado de dependientes</span>
-                            <span className="badge badge-pill badge-primary">Derechos Laborales</span>
+                            {
+                                JSON.parse(objectData.categories) &&
+                                    JSON.parse(objectData.categories).map( (category) => {
+                                        return <span key={category} className="badge badge-pill badge-primary">{tagsData[category].tagName}</span>
+                                    })
+                            }
+
                         </div>
                     </div>
                 </div>

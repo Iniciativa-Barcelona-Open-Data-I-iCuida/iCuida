@@ -9,6 +9,7 @@ questions.post('/', (req, res) => {
     const userQuestion = {
         title: req.body.title,
         description: req.body.description,
+        categories: req.body.categories,
         created_at: today,
 
     }

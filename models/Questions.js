@@ -15,6 +15,9 @@ module.exports = db.sequelize.define(
         description: {
             type: Sequelize.STRING
         },
+        categories: {
+            type: Sequelize.ARRAY(Sequelize.STRING)
+        },
         created_at: {
             type: Sequelize.DATE,
             defaultValue: Sequelize.NOW

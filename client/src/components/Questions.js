@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import {questions, askQuestion} from "./QuestionFunctions";
 import { Router, Route, Link} from 'react-router-dom';
+import Tags from './Tags';
+import tagsData from "../assets/tagsData";
 export default class Questions extends Component {
 
     state = {
         questionsData: null,
         title: '',
         description: '',
+        usedTags: null
     }
 
     componentWillMount() {
@@ -34,7 +37,8 @@ export default class Questions extends Component {
 
         const questionData = {
             title: this.state.title,
-            description: this.state.description
+            description: this.state.description,
+            categories: this.state.usedTags
         }
 
         askQuestion(questionData).then(res => {
@@ -54,12 +58,25 @@ export default class Questions extends Component {
                                 <div className="card-body">
                                     <h5 className="card-title">{val.title}</h5>
                                     <p className="card-text ml-2 mr-2">{val.description}</p>
+                                    <div className="mt-5">
+                                        {
+                                            JSON.parse(val.categories) &&
+                                            JSON.parse(val.categories).map( (category) => {
+                                                return <span key={category} className="badge badge-pill badge-primary">{tagsData[category].tagName}</span>
+                                            })
+                                        }
+                                    </div>
                                 </div>
                             </div>
                        </Link>
                    </Route>
                )
             })
+    }
+
+    updateTags = (tags) => {
+        this.setState({usedTags: tags})
+        console.log(tags)
     }
 
     render() {
@@ -93,6 +110,7 @@ export default class Questions extends Component {
                                    onChange={this.onChange}
                                    placeholder="Pregunta"/>
                         </div>
+                        <Tags updateTags={this.updateTags}/>
                         <div className="form-group">
                             <label htmlFor="exampleFormControlTextarea1">Explica tu pregunta</label>
                             <textarea className="form-control "

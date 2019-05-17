@@ -4,7 +4,8 @@ export const askQuestion = question => {
     return axios
         .post('/questions', {
             title: question.title,
-            description: question.description
+            description: question.description,
+            categories: question.categories,
         })
         .then(res => {
             return res;
