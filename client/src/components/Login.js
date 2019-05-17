@@ -31,7 +31,7 @@ class Login extends Component {
 
     render() {
         return (
-            <div className="icuida-blue container">
+            <div id="Login" className="icuida-blue container">
                 <div className="row">
                     <div className="col-m-6 mt-5 mx-auto">
                         <form noValidate onSubmit={this.onSubmit}>
@@ -64,7 +64,12 @@ class Login extends Component {
                                 <Link to="/register" className="text-success">Registrar ahora!</Link>
                             </div>
                         </form>
+                        <div className="text-center social-btn">
+                            <a href="#RegistrarFacebook" className="btn btn-primary btn-block"><i className="fa fa-facebook"> </i>  Registrar con <b>Facebook</b></a>
+                            <a href="#RegistrarGoogle" className="btn btn-danger btn-block"><i className="fa fa-google"> </i>  Registrar con <b>Google</b></a>
+                        </div>
                     </div>
+
                 </div>
             </div>
         )

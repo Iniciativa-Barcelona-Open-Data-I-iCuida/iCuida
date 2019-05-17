@@ -1,5 +1,7 @@
 import React, { Component} from 'react';
 import { register } from './UserFunctions';
+import '../assets/css/Register.css'
+
 
 class Register extends Component {
 
@@ -32,36 +34,32 @@ class Register extends Component {
 
     render() {
         return (
-            <div className="icuida-blue container">
+            <div id="Register" className="icuida-blue container">
                 <div className="row">
-                {/*  EMAIL IS REQUIRED  
-                <div className="form-group">   
+                {/*  EMAIL IS REQUIRED
+                <div className="form-group">
                         <div className="input-group">
                             <span className="input-group-addon">
-                            <i className="fa fa-lock"> </i> 
+                            <i className="fa fa-lock"> </i>
                             </span>
-                            <input type="password" 
-                                className="form-control" 
-                                name="password" 
-                                placeholder="Password" 
+                            <input type="password"
+                                className="form-control"
+                                name="password"
+                                placeholder="Password"
                                 required="required">
-                            </input> 
-                        </div>  
-                </div> 
-                 */}  
+                            </input>
+                        </div>
+                </div>
+                 */}
                     <div className="col-m-6 mt-5 mx-auto">
                         <form  className= "loginform" noValidate onSubmit={this.onSubmit}>
-                        <h1 className="text-center h3 mb-3 font-weight-normal">Registrar</h1>	
-                        <div className="text-center social-btn">
-                            <a href="#RegistrarFacebook" className="btn btn-primary btn-block"><i className="fa fa-facebook"> </i>  Registrar con <b>Facebook</b></a>
-			                <a href="#RegistrarGoogle" className="btn btn-danger btn-block"><i className="fa fa-google"> </i>  Registrar con <b>Google</b></a>
-                        </div>
-                        <hr></hr>                    
+                        <h1 className="text-center h3 mb-3 font-weight-normal">Registrar</h1>
+                        <hr></hr>
                             <div className="form-group">
                             <label htmlFor="user_name">Nombre de Usuario</label>
                             <div className="input-group">
                             <span className="input-group-addon">
-                                <i className="fa fa-user"> </i> 
+                                <i className="fa fa-user"> </i>
                             </span>
                             <input type="user_name"
                                     className="form-control"
@@ -77,7 +75,7 @@ class Register extends Component {
                                 <label htmlFor="email">Correo Electrónico</label>
                                 <div className="input-group">
                                     <span className="input-group-addon">
-                                        <i className="fa fa-lock"> </i> 
+                                        <i className="fa fa-lock"> </i>
                                     </span>
                                 <input type="email"
                                         className="form-control"
@@ -87,13 +85,13 @@ class Register extends Component {
                                        value={this.state.email}
                                        onChange={this.onChange}
                                 />
-                                </div>                        
+                                </div>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="password">Contraseña</label>
                                 <div className="input-group">
                                     <span className="input-group-addon">
-                                        <i className="fa fa-lock"> </i> 
+                                        <i className="fa fa-lock"> </i>
                                     </span>
                                 <input type="password"
                                        className="form-control"
@@ -105,12 +103,8 @@ class Register extends Component {
                                 </div>
                             </div>
                             <div className="form-group">
-                            <button type="submit"
-                                    className="btn btn-lg btn-success btn-block login-btn">
-                                Registrar
-                            </button>
                             </div>
-                            <a href="#Olvidarcontraseña" 
+                            <a href="#Olvidarcontraseña"
                                 className="pull-right text-success">Olvidaste la contraseña?
                             </a>
                         </form>
