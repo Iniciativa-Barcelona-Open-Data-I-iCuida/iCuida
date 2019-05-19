@@ -2,6 +2,7 @@ const express = require("express");
 const questions = express.Router();
 const cors = require('cors');
 const Question = require("../models/Questions");
+const { Op } = require('sequelize')
 questions.use(cors());
 
 questions.post('/', (req, res) => {
@@ -50,5 +51,19 @@ questions.get('/:id', (req, res) => {
         });
 
 });
+
+questions.get('/certain-questions/:id', (req, res) => {
+    Question.findAll({
+        where: {
+            categories: {[Op.like]: '%'+req.params.id+'%'}
+        }
+    })
+        .then(questions => {
+            res.send(questions)
+        })
+        .catch(err => {
+            res.send(err)
+        })
+})
 
 module.exports = questions;

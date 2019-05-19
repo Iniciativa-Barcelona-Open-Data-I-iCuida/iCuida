@@ -16,7 +16,7 @@ module.exports = db.sequelize.define(
             type: Sequelize.STRING
         },
         categories: {
-            type: Sequelize.ARRAY(Sequelize.STRING)
+            type: Sequelize.STRING
         },
         created_at: {
             type: Sequelize.DATE,

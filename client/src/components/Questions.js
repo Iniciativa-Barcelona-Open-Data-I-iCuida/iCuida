@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {questions, askQuestion} from "./QuestionFunctions";
+import {questions, askQuestion,certainQuestions} from "./QuestionFunctions";
 import { Router, Route, Link} from 'react-router-dom';
 import Tags from './Tags';
 import tagsData from "../assets/tagsData";
@@ -12,15 +12,30 @@ export default class Questions extends Component {
         usedTags: null
     }
 
-    componentWillMount() {
 
+    componentWillMount() {
 
         this.getData();
     }
 
     getData = () => {
+
+        const { tag } = this.props.location.state
+
+       !tag ?
+
         questions()
             .then(res => {
+                this.setState({questionsData: res.data})
+            })
+            .catch(err => {
+                console.log(err)
+            })
+
+        :
+
+        certainQuestions(tag)
+            .then( res => {
                 this.setState({questionsData: res.data})
             })
             .catch(err => {

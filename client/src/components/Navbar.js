@@ -53,40 +53,100 @@ class Navbar extends Component{
                         <li className="nav-breadcrumb-item dropdown"><Link to="#"
                             className="nav-link active dropdown-toggle"data-toggle="dropdown">Categorias</Link>
                             <div className="dropdown-menu">
-                                <Link to="/derechos-laborales"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                            tag: 'derechos-laborales'
+                                            }
+                                    }}
                                     className="dropdown-item">Derechos Laborales
                                 </Link>
-                                <Link to="/tramites-legales"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'tramites-legales'
+                                    }
+                                }}
                                     className="dropdown-item">Tramites Legales
                                 </Link>
-                                <Link to="/seguridad-social"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'seguridad-social'
+                                    }
+                                }}
                                     className="dropdown-item">Seguridad Social
                                 </Link>
-                                <Link to="/extranjería"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'extranjeria'
+                                    }
+                                }}
                                     className="dropdown-item">Extranjería
                                 </Link>
-                                <Link to="/centros-de-suporte"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'centros-soport'
+                                    }
+                                }}
                                     className="dropdown-item">Centros de Suporte
                                 </Link>
-                                <Link to="/cuidado-de-dependientes"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'cuidado-dependientes'
+                                    }
+                                }}
                                     className="dropdown-item">Cuidado de Dependientes
                                 </Link>
-                                <Link to="/cuidado-de-mayores"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'cuidado-mayores'
+                                    }
+                                }}
                                     className="dropdown-item">Cuidado de Mayores
                                 </Link>
-                                <Link to="/canguros"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'canguros'
+                                    }
+                                }}
                                     className="dropdown-item">Canguros
                                 </Link>
-                                <Link to="/consejos-de-limpieza"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'consejos-limpieza'
+                                    }
+                                }}
                                     className="dropdown-item">Consejos de Limpieza
                                 </Link>
-                                <Link to="/ayudas-prácticas"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'ayudas-practicas'
+                                    }
+                                }}
                                     className="dropdown-item">Ayudas Prácticas
                                 </Link>
-                                <Link to="/recursos-de-barcelona"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'derechos-laborales'
+                                    }
+                                }}
                                     className="dropdown-item">Recursos de Barcelona
                                 </Link>
-                                <Link to="/otros"
+                                <Link to={{
+                                    pathname: "/preguntas",
+                                    state: {
+                                        tag: 'derechos-laborales'
+                                    }
+                                }}
                                     className="dropdown-item">Otros
                                 </Link>
                             </div>

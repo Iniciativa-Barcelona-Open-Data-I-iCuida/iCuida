@@ -26,6 +26,17 @@ export const questions = () => {
         })
 }
 
+export const certainQuestions = (tag) => {
+    return axios
+        .get('questions/certain-questions/'+tag)
+        .then(res => {
+            return res;
+        })
+        .catch(err => {
+            return err
+        })
+}
+
 export const question = (id) => {
     return axios
         .get('/questions/'+id)
