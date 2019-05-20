@@ -20,6 +20,7 @@ export default class Questions extends Component {
 
     getData = () => {
 
+        const { handle } = this.props.match.params
         const { tag } = this.props.location.state
 
        !tag ?
