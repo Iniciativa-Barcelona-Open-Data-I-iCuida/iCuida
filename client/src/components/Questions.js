@@ -9,19 +9,26 @@ export default class Questions extends Component {
         questionsData: null,
         title: '',
         description: '',
-        usedTags: null
+        newTags: null,
+        linkTag: null
     }
 
+    componentWillReceiveProps(nextProps, nextContext) {
 
-    componentWillMount() {
+        let link = null;
 
-        this.getData();
+        if (nextProps.location.state) {
+            link = nextProps.location.state.tag
+        }
+
+        this.setState({linkTag: link})
+
+        this.getData(link);
     }
 
-    getData = () => {
+    getData = (tag) => {
 
         const { handle } = this.props.match.params
-        const { tag } = this.props.location.state
 
        !tag ?
 
@@ -54,7 +61,7 @@ export default class Questions extends Component {
         const questionData = {
             title: this.state.title,
             description: this.state.description,
-            categories: this.state.usedTags
+            categories: this.state.newTags
         }
 
         askQuestion(questionData).then(res => {
@@ -92,7 +99,6 @@ export default class Questions extends Component {
 
     updateTags = (tags) => {
         this.setState({usedTags: tags})
-        console.log(tags)
     }
 
     render() {

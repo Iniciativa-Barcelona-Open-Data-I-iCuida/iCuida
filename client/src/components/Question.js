@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { question, } from './QuestionFunctions';
 import { submitAnswer, getAnswers } from './AnswerFunctions';
 import {getComments} from './CommentFunctions';
@@ -70,7 +71,13 @@ export default class Question extends Component {
                             {
                                 JSON.parse(objectData.categories) &&
                                     JSON.parse(objectData.categories).map( (category) => {
-                                        return <span key={category} className="badge badge-pill badge-primary">{tagsData[category].tagName}</span>
+                                        return <Link to={{
+                                            pathname: '/preguntas',
+                                            state: {
+                                                tag: category
+                                            }
+                                        }
+                                        } key={category} className="badge badge-pill badge-primary">{tagsData[category].tagName}</Link>
                                     })
                             }
 
