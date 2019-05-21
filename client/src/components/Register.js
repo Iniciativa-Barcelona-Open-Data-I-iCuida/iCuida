@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import { register } from './UserFunctions';
 import '../assets/css/Register.css'
+import {Link} from "react-router-dom";
 
 
 class Register extends Component {
@@ -51,16 +52,13 @@ class Register extends Component {
                         </div>
                 </div>
                  */}
-                    <div className="col-m-6 mt-5 mx-auto">
+                    <div className="mt-5 mx-auto">
                         <form  className= "loginform" noValidate onSubmit={this.onSubmit}>
                         <h1 className="text-center h3 mb-3 font-weight-normal">Registrar</h1>
                         <hr></hr>
                             <div className="form-group">
                             <label htmlFor="user_name">Nombre de Usuario</label>
                             <div className="input-group">
-                            <span className="input-group-addon">
-                                <i className="fa fa-user"> </i>
-                            </span>
                             <input type="user_name"
                                     className="form-control"
                                     name="user_name"
@@ -74,9 +72,6 @@ class Register extends Component {
                             <div className="form-group">
                                 <label htmlFor="email">Correo Electrónico</label>
                                 <div className="input-group">
-                                    <span className="input-group-addon">
-                                        <i className="fa fa-lock"> </i>
-                                    </span>
                                 <input type="email"
                                         className="form-control"
                                        name="email"
@@ -90,9 +85,6 @@ class Register extends Component {
                             <div className="form-group">
                                 <label htmlFor="password">Contraseña</label>
                                 <div className="input-group">
-                                    <span className="input-group-addon">
-                                        <i className="fa fa-lock"> </i>
-                                    </span>
                                 <input type="password"
                                        className="form-control"
                                        name="password"
@@ -104,13 +96,13 @@ class Register extends Component {
                             </div>
                             <div className="form-group">
                             </div>
-                            <div>
-                                <button className="btn btn-primary w-100" type="submit"> Registrar</button>
+                            <div className="m-3">
+                                <Link to="/password-recover"><span className="hint-text small">¿Olvidaste la contraseña?</span>!</Link>
                             </div>
-
-                            <a href="#Olvidarcontraseña"
-                                className="pull-right text-success">Olvidaste la contraseña?
-                            </a>
+                            <div className="text-center social-btn">
+                                <a href="#RegistrarFacebook" className="btn btn-primary btn-block"><i className="fa fa-facebook"> </i> Continúa con <b>Facebook</b></a>
+                                <a href="#RegistrarGoogle" className="btn btn-danger btn-block"><i className="fa fa-google"> </i>  Continúa con <b>Google</b></a>
+                            </div>
                         </form>
                     </div>
                 </div>

@@ -128,7 +128,7 @@ export default class Questions extends Component {
         const { editorState} = this.state;
 
         return(
-            <React.Fragment>
+            <div className="p-4">
                     <div className="search-form">
                         <nav>
                             <form className="form-inline ml-auto">
@@ -140,16 +140,16 @@ export default class Questions extends Component {
                             </form>
                         </nav>
                     </div>
-            <div>
-                {
-                    this.state.questionsData &&
-                        this.renderQuestions(this.state.questionsData)
-                }
-            </div>
+                <div>
+                    {
+                        this.state.questionsData &&
+                            this.renderQuestions(this.state.questionsData)
+                    }
+                </div>
                 <div className="p-5">
                     <form className="card p-2" noValidate onSubmit={this.onSubmit}>
                         <div className="form-group">
-                            <label htmlFor="exampleFormControlTextarea1">pregunta</label>
+                            <label htmlFor="exampleFormControlTextarea1"></label>
                             <input className="form-control form-control-lg rounded-pill"
                                    name="title"
                                    type="text"
@@ -181,7 +181,7 @@ export default class Questions extends Component {
                         <button className="btn btn-primary rounded-pill" type="submit">Submit</button>
                     </form>
                 </div>
-            </React.Fragment>
+            </div>
         )
     }
 }

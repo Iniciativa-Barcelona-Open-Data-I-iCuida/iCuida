@@ -25,15 +25,14 @@ class Login extends Component {
         login(user).then(res => {
             if(res) {
                 this.props.history.push('/perfil')
-            }
-        })
+            }})
     }
 
     render() {
         return (
-            <div id="Login" className="icuida-blue container">
+            <div id="Login" className="icuida-blue container-fluid">
                 <div className="row">
-                    <div className="col-m-6 mt-5 mx-auto">
+                    <div className="mt-5 mx-auto">
                         <form noValidate onSubmit={this.onSubmit}>
                             <h1 className="h3 mb-3 font-weight-normal">iCuida</h1>
                             <div className="form-group">
@@ -60,13 +59,13 @@ class Login extends Component {
                                 Entrar
                             </button>
                             <hr></hr> 
-                            <div className="hint-text small">¿Todavía no eres miembro? <br></br>
-                                <Link to="/register" className="text-success">Registrar ahora!</Link>
+                            <div className="m-3">
+                                <Link to="/register"><span className="hint-text small">¿Todavía no eres miembro?</span>!</Link>
                             </div>
                         </form>
                         <div className="text-center social-btn">
-                            <a href="#RegistrarFacebook" className="btn btn-primary btn-block"><i className="fa fa-facebook"> </i>  Registrar con <b>Facebook</b></a>
-                            <a href="#RegistrarGoogle" className="btn btn-danger btn-block"><i className="fa fa-google"> </i>  Registrar con <b>Google</b></a>
+                            <a href="#RegistrarFacebook" className="btn btn-primary btn-block"><i className="fa fa-facebook"> </i> Conectaté con <b>Facebook</b></a>
+                            <a href="#RegistrarGoogle" className="btn btn-danger btn-block"><i className="fa fa-google"> </i>  Conectaté con <b>Google</b></a>
                         </div>
                     </div>
 

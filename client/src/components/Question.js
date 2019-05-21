@@ -160,7 +160,7 @@ export default class Question extends Component {
 
     render() {
         return(
-            <React.Fragment>
+            <div className="p-4">
             <div>
                 <h2>Pregunta</h2>
                 {
@@ -189,7 +189,7 @@ export default class Question extends Component {
                     </div>
                     <button className="btn btn-primary"type="submit">Submit</button>
                 </form>
-            </React.Fragment>
+            </div>
 
         )
     }
