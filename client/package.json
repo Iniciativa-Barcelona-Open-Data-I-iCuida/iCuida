@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "draft-js": "^0.10.5",
     "draftjs-to-html": "^0.8.4",
+    "draftjsToHTML": "0.0.2",
     "html-to-draftjs": "^1.4.0",
     "jwt-decode": "^2.2.0",
     "react": "^16.8.6",
