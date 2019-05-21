@@ -59,6 +59,11 @@ export default class Question extends Component {
 
     }
 
+
+    renderDescription(objectData) {
+        console.log(objectData.description);
+    }
+
     renderQuestion(objectData) {
         return (
             <div>
@@ -66,7 +71,7 @@ export default class Question extends Component {
                     <div className="card-header">{objectData.title}</div>
                     <div className="card-body">
                         <h5 className="card-title">{objectData.title}</h5>
-                        <p className="card-text">{objectData.description}</p>
+                        <div dangerouslySetInnerHTML={{__html: objectData.description}}></div>
                         <div className="mt-5">
                             {
                                 JSON.parse(objectData.categories) &&
