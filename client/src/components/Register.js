@@ -104,6 +104,10 @@ class Register extends Component {
                             </div>
                             <div className="form-group">
                             </div>
+                            <div>
+                                <button className="btn btn-primary w-100" type="submit"> Registrar</button>
+                            </div>
+
                             <a href="#Olvidarcontraseña"
                                 className="pull-right text-success">Olvidaste la contraseña?
                             </a>
