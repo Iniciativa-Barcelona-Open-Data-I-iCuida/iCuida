@@ -171,7 +171,7 @@ export default class Questions extends Component {
                     </div>
                     <button className="btn btn-primary"type="submit">Submit</button>
                 </form>
-                <div class="p-5">
+                <div className="p-5">
                 <div className="p-5">
                     <form className="card p-2" noValidate onSubmit={this.onSubmit}>
                         <div className="form-group">
