@@ -192,7 +192,7 @@ export default class Questions extends Component {
                                       value={this.state.description}
                                       onChange={this.onChange}
                                       rows="3"
-                                      placeholder="Explica tupregunta">
+                                      placeholder="Explica tu pregunta">
 
                             </textarea>*/}
                             <Editor
