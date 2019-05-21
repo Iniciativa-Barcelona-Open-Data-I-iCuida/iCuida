@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { question, } from './QuestionFunctions';
+import { Link } from 'react-router-dom';
+import { question, questionLike, questionDislike} from './QuestionFunctions';
 import { submitAnswer, getAnswers } from './AnswerFunctions';
 import {getComments} from './CommentFunctions';
-import {Link} from "react-router-dom";
+import  tagsData from '../assets/tagsData'
+import '../assets/css/Login.css'
 
 export default class Question extends Component {
 
@@ -11,6 +13,7 @@ export default class Question extends Component {
         answers: null,
         answer: '',
         comments: null,
+        categories: ["derechos-laborales", "tramites-legales", "seguridad-social", "recursos-barcelona"]
     }
 
     componentDidMount() {
@@ -56,22 +59,40 @@ export default class Question extends Component {
 
     }
 
+    questionLike = (id) => {
+        questionLike(id)
+    }
+
+    questionDislike = (id) => {
+        questionDislike(id)
+    }
+
+
     renderQuestion(objectData) {
         return (
             <div>
                 <div className="card">
-                    <div className="card-header">{objectData.title}</div>
                     <div className="card-body">
                         <h5 className="card-title">{objectData.title}</h5>
-                        <p className="card-text">{objectData.description}</p>
+                        <div dangerouslySetInnerHTML={{__html: objectData.description}}></div>
                         <div className="mt-5">
-                            <span className="badge badge-pill badge-primary">Derechos Laborales</span>
-                            <span className="badge badge-pill badge-primary">Tramites Legals</span>
-                            <span className="badge badge-pill badge-primary">Seguridad Social</span>
-                            <span className="badge badge-pill badge-primary">Extranjeria</span>
-                            <span className="badge badge-pill badge-primary">Centros de soporte</span>
-                            <span className="badge badge-pill badge-primary">Cuidado de dependientes</span>
-                            <span className="badge badge-pill badge-primary">Derechos Laborales</span>
+                            {
+                                JSON.parse(objectData.categories) &&
+                                    JSON.parse(objectData.categories).map( (category) => {
+                                        return <Link to={{
+                                            pathname: '/preguntas',
+                                            state: {
+                                                tag: category
+                                            }
+                                        }
+                                        } key={category} className="badge badge-pill badge-primary">{tagsData[category].tagName}</Link>
+                                    })
+                            }
+
+                        </div>
+                        <div>
+                            <a  className="m-2" onClick={ () => {this.questionLike(objectData.id)}}><i className="fa fa-thumbs-o-up"></i> {objectData.like}</a>
+                            <a className="m-2" onClick={() => {this.questionDislike(objectData.id)}}><i className="fa fa-thumbs-o-down"></i> {objectData.dislike}</a>
                         </div>
                     </div>
                 </div>
@@ -141,14 +162,14 @@ export default class Question extends Component {
         return(
             <React.Fragment>
             <div>
-                <h2>Question</h2>
+                <h2>Pregunta</h2>
                 {
                     this.state.questionData &&
                     this.renderQuestion( this.state.questionData)
                 }
             </div>
                 <div>
-                    <h2>Answer</h2>
+                    <h2>Respuestas</h2>
                     {
                         this.state.answers &&
                         this.renderAnswers( this.state.answers)

@@ -4,7 +4,8 @@ export const askQuestion = question => {
     return axios
         .post('/questions', {
             title: question.title,
-            description: question.description
+            description: question.description,
+            categories: question.categories,
         })
         .then(res => {
             return res;
@@ -25,6 +26,17 @@ export const questions = () => {
         })
 }
 
+export const certainQuestions = (tag) => {
+    return axios
+        .get('questions/certain-questions/'+tag)
+        .then(res => {
+            return res;
+        })
+        .catch(err => {
+            return err
+        })
+}
+
 export const question = (id) => {
     return axios
         .get('/questions/'+id)
@@ -36,16 +48,35 @@ export const question = (id) => {
         })
 }
 
-export const answer = (answer) => {
+export const questionLike = (id) => {
     return axios
-        .post('/answer', {
-            answer: answer.answer
-        })
+        .put('/questions/like/'+id)
         .then(res => {
             return res
         })
         .catch(err => {
             return err
         })
+}
 
+export const questionDislike = (id) => {
+    return axios
+        .put('/questions/dislike/'+id)
+        .then(res => {
+            return res
+        })
+        .catch(err => {
+            return err
+        })
+}
+
+export const questionViews = (id) => {
+    return axios
+        .put('/questions/views/'+id)
+        .then(res => {
+            return res
+        })
+        .catch(err => {
+            return err
+        })
 }

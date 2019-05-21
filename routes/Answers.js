@@ -40,4 +40,31 @@ answers.get('/:id', (req, res) => {
 })
 
 
+
+answers.put('/like/:id', (req, res) => {
+    Answer.findByPk(req.params.id)
+        .then(answer => {
+            return answer.increment('like', {by: 1})
+        })
+        .then(answer => {
+            res.send(answer)
+        })
+        .catch(err => {
+            return err
+        })
+});
+
+answers.put('/dislike/:id', (req, res) => {
+    Answer.findByPk(req.params.id)
+        .then(answer => {
+            return answer.increment('dislike', {by: 1})
+        })
+        .then(answer => {
+            res.send(answer)
+        })
+        .catch(err => {
+            return err
+        })
+});
+
 module.exports = answers;

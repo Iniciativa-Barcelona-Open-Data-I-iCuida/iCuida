@@ -14,13 +14,9 @@
 
 /*GENERAL*/
 html, body,
-#root, .App {
+#root {
   width: 100%;
   min-height: 100%;
-}
-
-.App {
-  width: 100%;
 }
 
 .icuida-blue {
