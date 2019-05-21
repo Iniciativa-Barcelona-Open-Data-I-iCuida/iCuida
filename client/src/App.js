@@ -12,6 +12,7 @@ import Question from './components/Question'
 //import Answers from './components/Anwsers'
 //import Answer from './components/Answer'
 //import Error from './components/Error'
+import '../assets/component/draft-to-html.js';
 
 class App extends Component {
 
