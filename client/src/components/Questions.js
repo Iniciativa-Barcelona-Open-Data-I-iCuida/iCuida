@@ -7,8 +7,8 @@ import tagsData from "../assets/tagsData";
 import { EditorState, convertToRaw } from'draft-js';
 import { Editor } from 'react-draft-wysiwyg';
 import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
-import htmlToDraft from 'html-to-draftjs';
-import draftToHtml from 'draftjs-to-html';
+//import htmlToDraft from 'html-to-draftjs';
+//import draftToHtml from 'draftjs-to-html';
 
 
 export default class Questions extends Component {
