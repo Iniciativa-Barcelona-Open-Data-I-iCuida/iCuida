@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { question, } from './QuestionFunctions';
+import { question, questionLike, questionDislike} from './QuestionFunctions';
 import { submitAnswer, getAnswers } from './AnswerFunctions';
 import {getComments} from './CommentFunctions';
 import  tagsData from '../assets/tagsData'
@@ -59,16 +59,19 @@ export default class Question extends Component {
 
     }
 
-
-    renderDescription(objectData) {
-        console.log(objectData.description);
+    questionLike = (id) => {
+        questionLike(id)
     }
+
+    questionDislike = (id) => {
+        questionDislike(id)
+    }
+
 
     renderQuestion(objectData) {
         return (
             <div>
                 <div className="card">
-                    <div className="card-header">{objectData.title}</div>
                     <div className="card-body">
                         <h5 className="card-title">{objectData.title}</h5>
                         <div dangerouslySetInnerHTML={{__html: objectData.description}}></div>
@@ -86,6 +89,10 @@ export default class Question extends Component {
                                     })
                             }
 
+                        </div>
+                        <div>
+                            <a  className="m-2" onClick={ () => {this.questionLike(objectData.id)}}><i className="fa fa-thumbs-o-up"></i> {objectData.like}</a>
+                            <a className="m-2" onClick={() => {this.questionDislike(objectData.id)}}><i className="fa fa-thumbs-o-down"></i> {objectData.dislike}</a>
                         </div>
                     </div>
                 </div>
@@ -155,14 +162,14 @@ export default class Question extends Component {
         return(
             <React.Fragment>
             <div>
-                <h2>Question</h2>
+                <h2>Pregunta</h2>
                 {
                     this.state.questionData &&
                     this.renderQuestion( this.state.questionData)
                 }
             </div>
                 <div>
-                    <h2>Answer</h2>
+                    <h2>Respuestas</h2>
                     {
                         this.state.answers &&
                         this.renderAnswers( this.state.answers)

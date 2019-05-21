@@ -52,6 +52,9 @@ questions.get('/:id', (req, res) => {
 
 });
 
+
+
+
 questions.get('/certain-questions/:id', (req, res) => {
     Question.findAll({
         where: {
@@ -65,5 +68,45 @@ questions.get('/certain-questions/:id', (req, res) => {
             res.send(err)
         })
 })
+
+questions.put('/like/:id', (req, res) => {
+    Question.findByPk(req.params.id)
+        .then(question => {
+            return question.increment('like', {by: 1})
+        })
+        .then(question => {
+            res.send(question)
+        })
+        .catch(err => {
+            return err
+        })
+});
+
+questions.put('/dislike/:id', (req, res) => {
+    Question.findByPk(req.params.id)
+        .then(question => {
+            return question.increment('dislike', {by: 1})
+        })
+        .then(question => {
+            res.send(question)
+        })
+        .catch(err => {
+            return err
+        })
+});
+
+questions.put('/views/:id', (req, res) => {
+    Question.findByPk(req.params.id)
+        .then(question => {
+            return question.increment('views', {by: 1})
+        })
+        .then(question => {
+            res.send(question)
+        })
+        .catch(err => {
+            return err
+        })
+});
+
 
 module.exports = questions;

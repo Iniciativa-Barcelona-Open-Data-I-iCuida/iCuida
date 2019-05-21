@@ -15,7 +15,12 @@ module.exports = db.sequelize.define(
         answer: {
             type: Sequelize.STRING
         },
-
+        like: {
+            type: Sequelize.INTEGER
+        },
+        dislike: {
+            type: Sequelize.INTEGER
+        },
         created_at: {
             type: Sequelize.DATE,
             defaultValue: Sequelize.NOW

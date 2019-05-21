@@ -48,16 +48,35 @@ export const question = (id) => {
         })
 }
 
-export const answer = (answer) => {
+export const questionLike = (id) => {
     return axios
-        .post('/answer', {
-            answer: answer.answer
-        })
+        .put('/questions/like/'+id)
         .then(res => {
             return res
         })
         .catch(err => {
             return err
         })
+}
 
+export const questionDislike = (id) => {
+    return axios
+        .put('/questions/dislike/'+id)
+        .then(res => {
+            return res
+        })
+        .catch(err => {
+            return err
+        })
+}
+
+export const questionViews = (id) => {
+    return axios
+        .put('/questions/views/'+id)
+        .then(res => {
+            return res
+        })
+        .catch(err => {
+            return err
+        })
 }
