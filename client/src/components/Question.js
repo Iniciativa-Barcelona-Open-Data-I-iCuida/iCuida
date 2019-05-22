@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 import { question, questionLike, questionDislike} from './QuestionFunctions';
 import { submitAnswer, getAnswers } from './AnswerFunctions';
 import {getComments} from './CommentFunctions';
+import { EditorState, convertToRaw } from'draft-js';
+import { Editor } from 'react-draft-wysiwyg';
+import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+import htmlToDraft from 'html-to-draftjs';
+import draftToHtml from 'draftjs-to-html';
+
 import  tagsData from '../assets/tagsData'
 import '../assets/css/Login.css'
 
@@ -13,7 +19,8 @@ export default class Question extends Component {
         answers: null,
         answer: '',
         comments: null,
-        categories: ["derechos-laborales", "tramites-legales", "seguridad-social", "recursos-barcelona"]
+        categories: ["derechos-laborales", "tramites-legales", "seguridad-social", "recursos-barcelona"],
+        editorState: EditorState.createEmpty()
     }
 
     componentDidMount() {
@@ -158,6 +165,20 @@ export default class Question extends Component {
 
     }
 
+    onEditorStateChange = (editorState) => {
+        this.setState({
+            editorState
+        })
+    }
+
+    updateDescription = () => {
+        let description = this.state.editorState ? draftToHtml(convertToRaw(this.state.editorState.getCurrentContent())) : '';
+
+        this.setState({
+            description
+        })
+    }
+
     render() {
         return(
             <div className="p-4">
@@ -178,14 +199,12 @@ export default class Question extends Component {
                 <form noValidate onSubmit={this.onSubmit}>
                     <div className="form-group">
                         <label htmlFor="exampleFormControlTextarea1">Answer</label>
-                        <textarea className="form-control"
-                                  id="exampleFormControlTextarea1"
-                                  name="answer"
-                                  value={this.state.answer}
-                                  onChange={this.onChange}
-                                  rows="3">
-
-                        </textarea>
+                        <Editor
+                            editorState={this.state.editorState}
+                            editorClassName={"demo-editor"}
+                            onEditorStateChange={this.onEditorStateChange}
+                            onChange={this.updateDescription}
+                        />
                     </div>
                     <button className="btn btn-primary"type="submit">Submit</button>
                 </form>
