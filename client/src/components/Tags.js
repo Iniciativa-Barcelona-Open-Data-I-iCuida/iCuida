@@ -66,7 +66,7 @@ export default class Tags extends Component {
 
         if (this.state.chosenTags) {
             return this.state.chosenTags.map(val => {
-                return (<span key={val} className="badge badge-pill badge-primary ml-1 mr-1">{tagsData[val].tagName} <span onClick={ () => {
+                return (<span key={val} className="badge badge-pill badge-success ml-1 mr-1">{tagsData[val].tagName} <span onClick={ () => {
                     this.removeTag(val)
                 }}>x</span></span>)
             })

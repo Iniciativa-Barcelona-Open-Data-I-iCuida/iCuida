@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {questions, askQuestion,certainQuestions} from "./QuestionFunctions";
+import {questions, askQuestion, certainQuestions, questionLike, questionDislike} from "./QuestionFunctions";
 import { Router, Route, Link} from 'react-router-dom';
 import Tags from './Tags';
 import tagsData from "../assets/tagsData";
@@ -104,6 +104,10 @@ export default class Questions extends Component {
                                             })
                                         }
                                     </div>
+                                    <div>
+                                        <a  className="m-2"><i className="fa fa-thumbs-o-up"></i> {val.like}</a>
+                                        <a className="m-2"><i className="fa fa-thumbs-o-down"></i> {val.dislike}</a>
+                                    </div>
                                 </div>
                             </div>
                        </Link>
@@ -146,7 +150,7 @@ export default class Questions extends Component {
                             this.renderQuestions(this.state.questionsData)
                     }
                 </div>
-                <div className="p-5">
+                <div className="pt-5">
                     <form className="card p-2" noValidate onSubmit={this.onSubmit}>
                         <div className="form-group">
                             <label htmlFor="exampleFormControlTextarea1"></label>
