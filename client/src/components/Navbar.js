@@ -39,14 +39,14 @@ class Navbar extends Component{
             <React.Fragment>
                 <nav className="navbar navbar-expand-md navbar-dark bg-newcolor">
                     <Link to="/" className="navbar-brand">iCuida</Link>
-                    <button className="navbar-toggler" 
+                    <button className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
                     data-target="#navbarCollapse"
                     aria-controls="#navbarCollapse"
                     aria-expanded="false"
                     aria-label="Toggle navigation">
-                        <span className="navbar-toggle-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-md-center"id="navbarCollapse">
                         <ul className="navbar-nav">
