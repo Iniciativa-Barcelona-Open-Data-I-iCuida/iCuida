@@ -175,9 +175,8 @@ export default class Questions extends Component {
                             </textarea>*/}
                             <Editor
                                 editorState={this.state.editorState}
-                                toolbarClassName={"toolbarClassName"}
-                                wrapperClassName={"wrapperClassName"}
-                                editorClassName={"editorClassName"}
+                                wrapperClassName={"demo-wrapper"}
+                                editorClassName={"demo-editor"}
                                 onEditorStateChange={this.onEditorStateChange}
                                 onChange={this.updateDescription}
                             />
