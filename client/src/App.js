@@ -9,6 +9,7 @@ import Register from './components/Register'
 import Profile from './components/Profile'
 import Questions from './components/Questions'
 import Question from './components/Question'
+import Footer from './components/Footer'
 //import Error from './components/Error'
 
 class App extends Component {
@@ -18,7 +19,7 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <main className="App icuida icuida-blue">
+                <main role="main" className="App icuida icuida-blue">
                     <Navbar/>
                     <Route exact path="/" component={Landing}/>
                     <Route exact path="/register" component={Register}/>
@@ -29,6 +30,7 @@ class App extends Component {
                             <Route exact path="/preguntas/:id" component={Question}/>
                         </div>
                     </main>
+                <Footer/>
             </Router>
         );
     }

@@ -6,28 +6,26 @@
 }
 
 /*GENERAL*/
-html, body {
+html, body, #root {
   width: 100%;
   height: 100%;
 }
 
 #root {
-  min-height: 100%;
+  ms-flex-direction: column !important;
+  flex-direction: column !important;
+  display: -ms-flexbox !important;
+  display: flex !important
+
+}
+
+#root {
   background-color: #bdf0ff !important
 }
 
 
-.App {
-  height: 100%
-}
-
 .icuida-blue {
   background-color: #bdf0ff !important;
-}
-
-.icuida {
-  overflow: hidden;
-  height: 100%;
 }
 
 a {

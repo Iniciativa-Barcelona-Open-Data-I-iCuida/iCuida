@@ -1,0 +1,15 @@
+.Footer {
+    background-color: #fe6e60;
+    text-align: center;
+}
+
+.Footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.Footer .footer-links a {
+    font-weight: 600;
+    color: #666!important;
+    text-decoration: underline;
+}
