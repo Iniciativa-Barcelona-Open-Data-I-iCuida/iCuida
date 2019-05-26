@@ -26,6 +26,10 @@ export default class Questions extends Component {
         this.getData(link);
     }
 
+    componentDidMount() {
+        this.getData(this.props.location.state.tag)
+    }
+
     getData = (tag) => {
 
         const { handle } = this.props.match.params
@@ -103,8 +107,6 @@ export default class Questions extends Component {
                             this.renderQuestions(this.state.questionsData)
                     }
                 </div>
-                <CreateQuestion/>
-
             </div>
         )
     }

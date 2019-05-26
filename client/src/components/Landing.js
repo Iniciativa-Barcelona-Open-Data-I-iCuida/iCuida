@@ -216,7 +216,12 @@ export default class Landing extends Component {
                     <p className="card-text">Box12:Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <p><Link
                         className="btn btn-secondary"
-                        to="/otros"
+                        to={{
+                            pathname: "/preguntas",
+                            state: {
+                                tag: null
+                            }
+                        }}
                         role="button">Otros»</Link></p>
                 </div>             
             </div>                        

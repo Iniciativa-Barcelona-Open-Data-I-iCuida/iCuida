@@ -144,7 +144,7 @@ class Navbar extends Component{
                                 <Link to={{
                                     pathname: "/preguntas",
                                     state: {
-                                        tag: 'derechos-laborales'
+                                        tag: null
                                     }
                                 }}
                                     className="dropdown-item">Otros
