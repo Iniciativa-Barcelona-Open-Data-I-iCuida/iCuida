@@ -26,3 +26,24 @@ export const submitAnswer = (answerData) => {
         })
 }
 
+export const answerLike = (id) => {
+    return axios
+        .put('/answers/like/'+id)
+        .then(res => {
+            return res
+        })
+        .catch(err => {
+            return err
+        })
+}
+
+export const answerDislike = (id) => {
+    return axios
+        .put('/answers/dislike/'+id)
+        .then(res => {
+            return res
+        })
+        .catch(err => {
+            return err
+        })
+}

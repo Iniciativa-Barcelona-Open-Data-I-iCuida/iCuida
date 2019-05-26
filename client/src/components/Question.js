@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { question, questionLike, questionDislike} from './QuestionFunctions';
-import { submitAnswer, getAnswers } from './AnswerFunctions';
+import { submitAnswer, getAnswers, answerLike, answerDislike } from './AnswerFunctions';
 import {getComments} from './CommentFunctions';
 import { EditorState, convertToRaw } from'draft-js';
 import { Editor } from 'react-draft-wysiwyg';
@@ -66,14 +66,6 @@ export default class Question extends Component {
 
     }
 
-    questionLike = (id) => {
-        questionLike(id)
-    }
-
-    questionDislike = (id) => {
-        questionDislike(id)
-    }
-
 
     renderQuestion(objectData) {
         return (
@@ -98,8 +90,8 @@ export default class Question extends Component {
 
                         </div>
                         <div>
-                            <a  className="m-2" onClick={ () => {this.questionLike(objectData.id)}}><i className="fa fa-thumbs-o-up"></i> {objectData.like}</a>
-                            <a className="m-2" onClick={() => {this.questionDislike(objectData.id)}}><i className="fa fa-thumbs-o-down"></i> {objectData.dislike}</a>
+                            <a  className="m-2" onClick={ () => {questionLike(objectData.id)}}><i className="fa fa-thumbs-o-up"></i> {objectData.like}</a>
+                            <a className="m-2" onClick={() => {questionDislike(objectData.id)}}><i className="fa fa-thumbs-o-down"></i> {objectData.dislike}</a>
                         </div>
                     </div>
                 </div>
@@ -118,6 +110,10 @@ export default class Question extends Component {
                     <div className="card">
                         <div className="card-body">
                             <p className="card-text">{answer.answer}</p>
+                            <div>
+                                <a  className="m-2" onClick={ () => {answerLike(answer.id)}}><i className="fa fa-thumbs-o-up"></i> {answer.like}</a>
+                                <a className="m-2" onClick={() => {answerDislike(answer.id)}}><i className="fa fa-thumbs-o-down"></i> {answer.dislike}</a>
+                            </div>
                         </div>
                     </div>
                 </div>
