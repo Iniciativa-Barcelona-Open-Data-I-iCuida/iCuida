@@ -152,7 +152,7 @@ class Navbar extends Component{
                             </div>
                         </li>
                         <li className="nav-breadcrumb-item">
-                            <Link to="/preguntas"
+                            <Link to="/preguntar"
                                 className="nav-link active"><i className="fa fa-pencil"></i></Link>
                         </li>
                         {localStorage.usertoken ? userLink : loginRegLink}

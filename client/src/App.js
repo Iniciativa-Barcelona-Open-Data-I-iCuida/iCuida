@@ -10,7 +10,7 @@ import Profile from './components/Profile'
 import Questions from './components/Questions'
 import Question from './components/Question'
 import Footer from './components/Footer'
-//import Error from './components/Error'
+import CreateQuestion from './components/createQuestion'
 
 class App extends Component {
 
@@ -28,6 +28,8 @@ class App extends Component {
                             <Route exact path="/perfil" component={Profile}/>
                             <Route exact path="/preguntas" component={Questions}/>
                             <Route exact path="/preguntas/:id" component={Question}/>
+                            <Route exact path="/preguntar" component={CreateQuestion}/>
+
                         </div>
                     </main>
                 <Footer/>
