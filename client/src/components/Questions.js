@@ -132,7 +132,7 @@ export default class Questions extends Component {
         const { editorState} = this.state;
 
         return(
-            <div className="p-4">
+            <div className="p-4 mb-5">
                     <div className="search-form">
                         <nav>
                             <form className="form-inline ml-auto">

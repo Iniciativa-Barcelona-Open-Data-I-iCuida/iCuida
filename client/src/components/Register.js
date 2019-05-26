@@ -103,6 +103,7 @@ class Register extends Component {
                                 <a href="#RegistrarFacebook" className="btn btn-primary btn-block"><i className="fa fa-facebook"> </i> Continúa con <b>Facebook</b></a>
                                 <a href="#RegistrarGoogle" className="btn btn-danger btn-block"><i className="fa fa-google"> </i>  Continúa con <b>Google</b></a>
                             </div>
+                            <button className="btn btn-success" type="submit">Registrar</button>
                         </form>
                     </div>
                 </div>

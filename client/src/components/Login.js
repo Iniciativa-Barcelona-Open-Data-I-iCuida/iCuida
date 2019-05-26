@@ -64,8 +64,8 @@ class Login extends Component {
                             </div>
                         </form>
                         <div className="text-center social-btn">
-                            <a href="#RegistrarFacebook" className="btn btn-primary btn-block"><i className="fa fa-facebook"> </i> Conectaté con <b>Facebook</b></a>
-                            <a href="#RegistrarGoogle" className="btn btn-danger btn-block"><i className="fa fa-google"> </i>  Conectaté con <b>Google</b></a>
+                            <a href="#RegistrarFacebook" className="btn btn-primary btn-block"><i className="fa fa-facebook"> </i> Conéctate con <b>Facebook</b></a>
+                            <a href="#RegistrarGoogle" className="btn btn-danger btn-block"><i className="fa fa-google"> </i>  Conéctate con <b>Google</b></a>
                         </div>
                     </div>
 
