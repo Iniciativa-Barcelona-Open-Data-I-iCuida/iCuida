@@ -89,9 +89,14 @@ export default class Question extends Component {
                             }
 
                         </div>
-                        <div>
-                            <a  className="m-2" onClick={ () => {questionLike(objectData.id)}}><i className="fa fa-thumbs-o-up"></i> {objectData.like}</a>
-                            <a className="m-2" onClick={() => {questionDislike(objectData.id)}}><i className="fa fa-thumbs-o-down"></i> {objectData.dislike}</a>
+                        <div className="py-3 text-utils">
+                            <div className="like-container">
+                                <a  className="m-2" onClick={ () => {questionLike(objectData.id)}}><i className="fa fa-thumbs-o-up"></i> {objectData.like}</a>
+                                <a className="m-2" onClick={() => {questionDislike(objectData.id)}}><i className="fa fa-thumbs-o-down"></i> {objectData.dislike}</a>
+                            </div>
+                            <div className="question-date">
+                                <a className="text-right" >{objectData.updated_at ? objectData.update_at : objectData.created_at}</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -110,10 +115,15 @@ export default class Question extends Component {
                     <div className="card">
                         <div className="card-body">
                             <p className="card-text">{answer.answer}</p>
-                            <div>
-                                <a  className="m-2" onClick={ () => {answerLike(answer.id)}}><i className="fa fa-thumbs-o-up"></i> {answer.like}</a>
-                                <a className="m-2" onClick={() => {answerDislike(answer.id)}}><i className="fa fa-thumbs-o-down"></i> {answer.dislike}</a>
-                                <a className="text-right" >{answer.updated_at ? answer.update_at : answer.created_at}</a>
+                            <div className="py-3 text-utils">
+                                <div className="like-container">
+                                    <a  className="m-2" onClick={ () => {answerLike(answer.id)}}><i className="fa fa-thumbs-o-up"></i> {answer.like}</a>
+                                    <a className="m-2" onClick={() => {answerDislike(answer.id)}}><i className="fa fa-thumbs-o-down"></i> {answer.dislike}</a>
+                                </div>
+                                <div className="question-date">
+                                    <a className="text-right" >{answer.updated_at ? answer.update_at : answer.created_at}</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
