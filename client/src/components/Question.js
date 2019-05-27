@@ -113,6 +113,7 @@ export default class Question extends Component {
                             <div>
                                 <a  className="m-2" onClick={ () => {answerLike(answer.id)}}><i className="fa fa-thumbs-o-up"></i> {answer.like}</a>
                                 <a className="m-2" onClick={() => {answerDislike(answer.id)}}><i className="fa fa-thumbs-o-down"></i> {answer.dislike}</a>
+                                <a className="text-right" >{answer.updated_at ? answer.update_at : answer.created_at}</a>
                             </div>
                         </div>
                     </div>

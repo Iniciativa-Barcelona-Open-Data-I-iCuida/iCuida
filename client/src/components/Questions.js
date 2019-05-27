@@ -79,6 +79,7 @@ export default class Questions extends Component {
                                     <div>
                                         <a  className="m-2"><i className="fa fa-thumbs-o-up"></i> {val.like}</a>
                                         <a className="m-2"><i className="fa fa-thumbs-o-down"></i> {val.dislike}</a>
+                                        <a className="text-right" >{val.updated_at ? val.update_at : val.created_at}</a>
                                     </div>
                                 </div>
                             </div>
