@@ -42,3 +42,7 @@ a:hover {
   padding: 5px !important;
   border-radius: 2px !important;
 }
+
+.fit-content-w {
+  width: fit-content !important;
+}

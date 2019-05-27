@@ -57,6 +57,9 @@ export default class Questions extends Component {
 
 
     renderQuestions(objectData) {
+
+
+        if (objectData.length > 0) {
             return objectData.map(val => {
                return (
                    <Route key={val.title}>
@@ -83,6 +86,13 @@ export default class Questions extends Component {
                    </Route>
                )
             })
+        } else {
+            return (
+                <div className="m-auto fit-content-w p-5">
+                    <Link className="btn btn-primary" to="preguntar">Formula tu pregunta</Link>
+                </div>
+            )
+        }
     }
 
     render() {
